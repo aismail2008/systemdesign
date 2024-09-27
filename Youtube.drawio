@@ -138,11 +138,8 @@
         <mxCell id="wZr598679HZc5HNXFRnV-47" value="metadata Cache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="230" y="790" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wZr598679HZc5HNXFRnV-48" value="metadata Cache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="800" width="80" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="wZr598679HZc5HNXFRnV-49" value="metadata Cache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="810" width="80" height="30" as="geometry" />
+          <mxGeometry x="250" y="795" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="wZr598679HZc5HNXFRnV-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wZr598679HZc5HNXFRnV-35" target="wZr598679HZc5HNXFRnV-46">
           <mxGeometry relative="1" as="geometry" />
