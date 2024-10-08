@@ -1,9 +1,127 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="yTSgLIf93G10eD3SdpJ7">
-    <mxGraphModel>
+    <mxGraphModel dx="2284" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4QGCqFe7C726sxaVOe-O-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-1" target="4QGCqFe7C726sxaVOe-O-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-1" target="4QGCqFe7C726sxaVOe-O-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-1" value="Mobile user" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" vertex="1" parent="1">
+          <mxGeometry x="416" y="30" width="18" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-2" value="CDN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="30" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-3" value="Contains precalculated maps based on &lt;b&gt;GEOHASh&lt;/b&gt;&lt;br&gt;Also contains &lt;b&gt;tiles&lt;/b&gt; information" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="60" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-5" target="4QGCqFe7C726sxaVOe-O-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-5" target="4QGCqFe7C726sxaVOe-O-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-5" value="web server" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-7" target="4QGCqFe7C726sxaVOe-O-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-7" value="LocationService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-8" value="Cassandra for high load and partitioning" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="390" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-11" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-12" value="Navigation Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-14" value="Routing Tiles" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="379" y="440" width="55" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-12" target="4QGCqFe7C726sxaVOe-O-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="329" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-16" value="Geocoding DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="450" width="60" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.069;exitY=0.9;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.656;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-12" target="4QGCqFe7C726sxaVOe-O-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="400" as="sourcePoint" />
+            <mxPoint x="260" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-19" value="Maps address to GeoHash&lt;br&gt;&lt;b&gt;Redis&lt;/b&gt; is best option" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-21" value="- One tile is &lt;b&gt;256x256 pixel&lt;/b&gt; and cover around &lt;b&gt;200mx200m.&lt;/b&gt;&lt;br&gt;- 1 tile is around compressed image of 100 KB&lt;br&gt;-&amp;nbsp;For 1k you need 25 images = 100GB * 25 = &lt;b&gt;2.5 MB/K&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;There are 21 zoom level. At deepest zoom level there are 4.4 trillion tiles.&lt;br&gt;&lt;br&gt;At level &lt;b&gt;21 &lt;/b&gt;= 4. trillion * 100 KB = &lt;b&gt;440 PB&lt;/b&gt;&lt;br&gt;&lt;b&gt;90% &lt;/b&gt;are not used (water, inhabitant) then actually data is 440/10 = 44 PB&amp;nbsp; ~=&lt;b&gt; 50 PB for level 21&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each level reduce 4x (north, south, east, west) then to store all levels tiles as precalculated&amp;nbsp;&lt;br&gt;50 PB + 50/4 + 50/16 + ... = 67 PB ~= &lt;b&gt;100 PB to store all world tiles at all levels&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="260" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-2" target="4QGCqFe7C726sxaVOe-O-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="495" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="730" y="45" />
+              <mxPoint x="730" y="475" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-23" value="&lt;div&gt;Convert address to Geohas and URLs for list of tiles to download from CDN&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="320" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-24" value="Location updates can come &lt;b&gt;batch of 15s&lt;/b&gt; contains every second updates&lt;br&gt;Can be sent &lt;b&gt;every 1sec&lt;/b&gt; if driving&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="100" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-25" value="&lt;div&gt;Reply with distance, duration, ETA, ..etc&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-26" value="TilesService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="270" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.338;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-5" target="4QGCqFe7C726sxaVOe-O-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-29" value="&lt;b&gt;Tiles&lt;/b&gt; are roads and associated metadata like names, country, lang, latt. ..etc&lt;br&gt;&lt;br&gt;Most probably it&#39;s&lt;font color=&quot;#ff4b1f&quot;&gt;&lt;b&gt; Object Store DB(S3). &lt;/b&gt;&lt;/font&gt;&lt;br&gt;There are many tiles, and it&#39;s expensive to store in a database.&lt;br&gt;&lt;br&gt;We can use &lt;b&gt;Geohashing as organizing&lt;/b&gt; tiles in S3 for fast lookup&lt;br&gt;&lt;br&gt;&lt;b&gt;Graph services&lt;/b&gt; will generate &lt;b&gt;adjacent list&lt;/b&gt; and store in memory for processing" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="600" width="260" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.145;entryY=1;entryDx=0;entryDy=-4.35;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-21" target="4QGCqFe7C726sxaVOe-O-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="560" as="sourcePoint" />
+            <mxPoint x="380" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-29" target="4QGCqFe7C726sxaVOe-O-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="285" y="610" as="sourcePoint" />
+            <mxPoint x="397" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-32" value="List" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="400" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-33" value="User_id: 101&lt;br&gt;timestamp: 947484545&lt;br&gt;user_mode: active&lt;br&gt;driving_mode: driving&lt;br&gt;location: 20.0,30.5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="4QGCqFe7C726sxaVOe-O-32">
+          <mxGeometry y="30" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.029;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-8" target="4QGCqFe7C726sxaVOe-O-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-38" value="List Item" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="540" width="60" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4QGCqFe7C726sxaVOe-O-39" value="Updates continuously user location&lt;div&gt;&lt;br&gt;&lt;/div&gt;Used for updating routing tiles and create live and historical traffic data" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="220" width="220" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
