@@ -1,118 +1,118 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.14">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="xOBLhyYj3MYxFQuUd8QE">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2284" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="a0uawv8okTH7sb19AHDm-1" value="&lt;a href=&quot;https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md&quot;&gt;Github Link&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-1" value="&lt;a href=&quot;https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/scaling_aws/README.md&quot;&gt;Github Link&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="100" y="30" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0uawv8okTH7sb19AHDm-4" target="a0uawv8okTH7sb19AHDm-6">
+        <mxCell id="a0uawv8okTH7sb19AHDm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a0uawv8okTH7sb19AHDm-4" target="a0uawv8okTH7sb19AHDm-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0uawv8okTH7sb19AHDm-4" target="a0uawv8okTH7sb19AHDm-16">
+        <mxCell id="a0uawv8okTH7sb19AHDm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="a0uawv8okTH7sb19AHDm-4" target="a0uawv8okTH7sb19AHDm-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="a0uawv8okTH7sb19AHDm-4" target="EQkBLZ_68zLxbS4yyMJ8-2">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="a0uawv8okTH7sb19AHDm-4" target="EQkBLZ_68zLxbS4yyMJ8-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-4" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="325" y="20" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-6" value="DNS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-6" value="DNS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="30" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Use Cases:&lt;/h1&gt;&lt;div&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;User&lt;/span&gt;&amp;nbsp;makes a read or write request&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Service&lt;/span&gt;&amp;nbsp;does processing, stores user data, then returns the results&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Service&lt;/span&gt;&amp;nbsp;needs to evolve from serving a small amount of users to millions of users&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Discuss general scaling patterns as we evolve an architecture to handle a large number of users and requests&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Service&lt;/span&gt;&amp;nbsp;has high availability&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-8" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Use Cases:&lt;/h1&gt;&lt;div&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;User&lt;/span&gt;&amp;nbsp;makes a read or write request&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Service&lt;/span&gt;&amp;nbsp;does processing, stores user data, then returns the results&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Service&lt;/span&gt;&amp;nbsp;needs to evolve from serving a small amount of users to millions of users&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;Discuss general scaling patterns as we evolve an architecture to handle a large number of users and requests&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Service&lt;/span&gt;&amp;nbsp;has high availability&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-640" y="30" width="380" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-16" value="LB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-16" value="LB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="150" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-25" value="SQL Read replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-25" value="SQL Read replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="440" y="770" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="a0uawv8okTH7sb19AHDm-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Calculation:&lt;/h1&gt;&lt;div&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;10 million users&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;1 billion writes per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;100 billion reads per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;100:1 read to write ratio&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;1 KB content per write&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;1 TB of new content per month&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;1 KB per write * 1 billion writes per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;36 TB of new content in 3 years&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Assume most writes are from new content instead of updates to existing ones&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;400 writes per second on average&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;40,000 reads per second on average&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Handy conversion guide:&lt;/li&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;2.5 million seconds per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;1 request per second = 2.5 million requests per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;40 requests per second = 100 million requests per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;400 requests per second = 1 billion requests per month&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="a0uawv8okTH7sb19AHDm-31" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Calculation:&lt;/h1&gt;&lt;div&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;10 million users&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;1 billion writes per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;100 billion reads per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;100:1 read to write ratio&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;1 KB content per write&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;1 TB of new content per month&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: 0px;&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;1 KB per write * 1 billion writes per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;36 TB of new content in 3 years&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Assume most writes are from new content instead of updates to existing ones&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;400 writes per second on average&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;40,000 reads per second on average&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;Handy conversion guide:&lt;/li&gt;&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; font-size: 16px; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;2.5 million seconds per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;1 request per second = 2.5 million requests per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;40 requests per second = 100 million requests per month&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box; margin-top: 0.25em;&quot;&gt;400 requests per second = 1 billion requests per month&lt;/li&gt;&lt;/ul&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-640" y="330" width="370" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-1" value="Amazon [CloudFare / Route53]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-1" value="Amazon [CloudFare / Route53]" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="10" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-2" value="CDN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-2" value="CDN" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="100" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-4" value="Amazon CloudFront" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-4" value="Amazon CloudFront" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="590" y="80" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-5" target="a0uawv8okTH7sb19AHDm-16">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-5" target="a0uawv8okTH7sb19AHDm-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-5" value="Useful for Srvs with same Functionality&lt;br&gt;&lt;br&gt;L4 tans Layer&amp;nbsp;&lt;br&gt;Source/Dest IPs + Ports NOT content&lt;br&gt;&lt;br&gt;L7 App Layer&amp;nbsp;&lt;br&gt;&amp;nbsp;+ content&lt;br&gt;redirect to which server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-110" y="145" width="110" height="40" as="geometry" />
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-5" value="Useful for Srvs with same Functionality&lt;br&gt;&lt;br&gt;L4 tans Layer&amp;nbsp;&lt;br&gt;Source/Dest IPs + Ports NOT content&lt;br&gt;&lt;br&gt;L7 App Layer&amp;nbsp;&lt;br&gt;&amp;nbsp;+ content&lt;br&gt;redirect to which server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-110" y="72.5" width="110" height="185" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-6" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-6" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="280" y="240" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-7" target="EQkBLZ_68zLxbS4yyMJ8-6">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-7" target="EQkBLZ_68zLxbS4yyMJ8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-7" value="Useful for servers&amp;nbsp; for&amp;nbsp;&lt;br&gt;SSL Terminiation&lt;br&gt;Caching&lt;br&gt;Security&lt;br&gt;Reverse Procy (NGINX)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="80" y="240" width="110" height="40" as="geometry" />
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-7" value="Useful for servers&amp;nbsp; for&amp;nbsp;&lt;br&gt;SSL Terminiation&lt;br&gt;Caching&lt;br&gt;Security&lt;br&gt;Reverse Procy (NGINX)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="60" y="190" width="110" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-15">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-14">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-18">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-87">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-8" target="EQkBLZ_68zLxbS4yyMJ8-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-8" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-8" value="WebServer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="250" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-12" value="LB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-12" value="LB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="160" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-12" target="EQkBLZ_68zLxbS4yyMJ8-6">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.667;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-12" target="EQkBLZ_68zLxbS4yyMJ8-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-14" value="Write API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-14" value="Write API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-15" value="Read API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-15" value="Read API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="605" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-18" target="EQkBLZ_68zLxbS4yyMJ8-19">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-18" target="EQkBLZ_68zLxbS4yyMJ8-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-18" value="Write API Asynch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-18" value="Write API Asynch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-19" target="EQkBLZ_68zLxbS4yyMJ8-21">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-19" target="EQkBLZ_68zLxbS4yyMJ8-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-19" value="Queues" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-19" value="Queues" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-20" value="Worker Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-20" value="Worker Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="50" y="500" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-21" value="Worker Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-21" value="Worker Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="60" y="510" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-22" target="EQkBLZ_68zLxbS4yyMJ8-48">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-22" target="EQkBLZ_68zLxbS4yyMJ8-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-22" value="Worker Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-22" value="Worker Service" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="520" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-27" value="MemoryCache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-27" value="MemoryCache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="495" y="590" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.433;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-29" target="EQkBLZ_68zLxbS4yyMJ8-27">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=-0.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.433;exitY=1.017;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-29" target="EQkBLZ_68zLxbS4yyMJ8-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="665" y="441" />
@@ -121,34 +121,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-29" value="Read API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-29" value="Read API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="615" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-33" value="Write API" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-33" value="Write API" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-34" value="Write API Asynch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-34" value="Write API Asynch" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" y="380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-35" value="Auto Scale" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-35" value="Auto Scale" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="340" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-36" value="Write Through /&amp;nbsp;&lt;br&gt;Cache Aside /&amp;nbsp;&lt;br&gt;write Behind back" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-36" value="Write Through /&amp;nbsp;&lt;br&gt;Cache Aside /&amp;nbsp;&lt;br&gt;write Behind back" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="520" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-38" value="SQL Write Master-Slave" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-38" value="SQL Write Master-Slave" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="290" y="770" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-39" value="SQL Write Master-Slave" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-39" value="SQL Write Master-Slave" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="300" y="780" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-42" value="SQL Read replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-42" value="SQL Read replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="450" y="780" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-43" value="SQL Read replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-43" value="SQL Read replica" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="460" y="790" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-44" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="890" as="sourcePoint" />
             <mxPoint x="530" y="760" as="targetPoint" />
@@ -157,7 +157,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-45" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="280" y="890" as="sourcePoint" />
             <mxPoint x="530" y="760" as="targetPoint" />
@@ -166,25 +166,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-39" target="a0uawv8okTH7sb19AHDm-25">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-46" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-39" target="a0uawv8okTH7sb19AHDm-25" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="370" y="820" as="sourcePoint" />
             <mxPoint x="420" y="770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-47" value="Object Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-47" value="Object Store" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="560" y="780" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-48" value="NoSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-48" value="NoSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="180" y="780" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-49" value="S3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-49" value="S3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="620" y="805" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-50" value="Example&lt;br&gt;Redis &amp;gt;&amp;gt; Key-Value&lt;br&gt;Dynamo --&amp;gt; Doc store( XML, JSON, ..etc)&lt;br&gt;Cassandra. -&amp;gt; wide column store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-50" value="Example&lt;br&gt;Redis &amp;gt;&amp;gt; Key-Value&lt;br&gt;Dynamo --&amp;gt; Doc store( XML, JSON, ..etc)&lt;br&gt;Cassandra. -&amp;gt; wide column store" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-20" y="860" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-22" target="EQkBLZ_68zLxbS4yyMJ8-47">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-22" target="EQkBLZ_68zLxbS4yyMJ8-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-20" y="550" />
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-2" target="EQkBLZ_68zLxbS4yyMJ8-47">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-2" target="EQkBLZ_68zLxbS4yyMJ8-47" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="820" y="120" />
@@ -201,7 +201,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-55" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-55" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="330" as="sourcePoint" />
             <mxPoint x="440" y="140" as="targetPoint" />
@@ -210,7 +210,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-56" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-56" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="240" y="330" as="sourcePoint" />
             <mxPoint x="440" y="140" as="targetPoint" />
@@ -219,10 +219,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-59" value="API Gateway" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-59" value="API Gateway" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="410" y="190" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-29" target="EQkBLZ_68zLxbS4yyMJ8-42">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-29" target="EQkBLZ_68zLxbS4yyMJ8-42" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="675" y="700" />
@@ -230,7 +230,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-33" target="EQkBLZ_68zLxbS4yyMJ8-38">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-33" target="EQkBLZ_68zLxbS4yyMJ8-38" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="520" y="480" />
@@ -238,13 +238,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-69" value="Customers&lt;br&gt;N-Z&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-69" value="Customers&lt;br&gt;N-Z&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-180" y="785" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-70" value="Customers&lt;br&gt;A-M&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-70" value="Customers&lt;br&gt;A-M&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-280" y="780" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-290" y="900" as="sourcePoint" />
             <mxPoint x="-90" y="770" as="targetPoint" />
@@ -253,7 +253,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-75" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-75" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-290" y="900" as="sourcePoint" />
             <mxPoint x="-90" y="770" as="targetPoint" />
@@ -262,16 +262,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-77" value="Sharding" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-300" y="740" width="50" height="40" as="geometry" />
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-77" value="Sharding/Partioning" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-300" y="740" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-78" value="Products&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-78" value="Products&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-180" y="945" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-79" value="Customers&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-79" value="Customers&lt;br&gt;SQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-280" y="940" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-80" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-80" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-290" y="1060" as="sourcePoint" />
             <mxPoint x="-90" y="930" as="targetPoint" />
@@ -280,7 +280,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-81" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-81" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-290" y="1060" as="sourcePoint" />
             <mxPoint x="-90" y="930" as="targetPoint" />
@@ -289,37 +289,37 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-82" value="Federation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-82" value="Federation" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-300" y="900" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-83" target="EQkBLZ_68zLxbS4yyMJ8-43">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-83" target="EQkBLZ_68zLxbS4yyMJ8-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-83" value="&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Atomicity&lt;/span&gt;&amp;nbsp;- Each transaction is all or nothing&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;Consistency&lt;/b&gt; Any transaction will bring the database from one valid state to another&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;Isolation&lt;span style=&quot;font-size: medium;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;executing transactions concurrently has the same results as if the transactions were executed serially&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;Durability&lt;/b&gt; Once a transaction has been committed, it will remain so&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-83" value="&lt;ul style=&quot;box-sizing: border-box; padding-left: 2em; margin-top: 0px; margin-bottom: var(--base-size-16); color: rgb(31, 35, 40); font-family: -apple-system, &amp;quot;system-ui&amp;quot;, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; text-align: start; background-color: rgb(255, 255, 255);&quot; dir=&quot;auto&quot;&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;span style=&quot;box-sizing: border-box; font-weight: var(--base-text-weight-semibold, 600);&quot;&gt;Atomicity&lt;/span&gt;&amp;nbsp;- Each transaction is all or nothing&lt;/font&gt;&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;Consistency&lt;/b&gt; Any transaction will bring the database from one valid state to another&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;Isolation&lt;span style=&quot;font-size: medium;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/b&gt;executing transactions concurrently has the same results as if the transactions were executed serially&lt;/li&gt;&lt;li style=&quot;box-sizing: border-box;&quot;&gt;&lt;b&gt;Durability&lt;/b&gt; Once a transaction has been committed, it will remain so&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="520" y="990" width="385" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-85" value="&lt;strong&gt;Apache Lucene&lt;/strong&gt; is the core lib technology behind Elasticsearch, responsible for its fast and efficient full-text search capabilities using an inverted index.&lt;div&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Storage Engine&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Segment Files&lt;/strong&gt;: Lucene stores data in segment files, which are immutable and stored on disk. Each segment is a self-contained index and contains inverted indexes, stored fields, and other metadata.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Storage&lt;/strong&gt;: Elasticsearch uses the local file system or a network-based file system (e.g., NFS) to store these segment files. The file system handles the actual data storage, while Lucene manages the organization and retrieval of this data.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-85" value="&lt;strong&gt;Apache Lucene&lt;/strong&gt; is the core lib technology behind Elasticsearch, responsible for its fast and efficient full-text search capabilities using an inverted index.&lt;div&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;/strong&gt;&lt;/div&gt;&lt;div&gt;&lt;strong style=&quot;background-color: initial;&quot;&gt;Storage Engine&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Segment Files&lt;/strong&gt;: Lucene stores data in segment files, which are immutable and stored on disk. Each segment is a self-contained index and contains inverted indexes, stored fields, and other metadata.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;&lt;strong&gt;Data Storage&lt;/strong&gt;: Elasticsearch uses the local file system or a network-based file system (e.g., NFS) to store these segment files. The file system handles the actual data storage, while Lucene manages the organization and retrieval of this data.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1160" y="320" width="272.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-87" target="EQkBLZ_68zLxbS4yyMJ8-90">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-87" target="EQkBLZ_68zLxbS4yyMJ8-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-87" value="Logstash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-87" value="Logstash" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="860" y="205" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-89" target="EQkBLZ_68zLxbS4yyMJ8-87">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-89" target="EQkBLZ_68zLxbS4yyMJ8-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-89" value="Write-Ahead-Loggging(WAL):&amp;nbsp;maintain the integrity/atomicity of the transactions, allowing for recovery in case of system failure or crashes." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-89" value="Write-Ahead-Loggging(WAL):&amp;nbsp;maintain the integrity/atomicity of the transactions, allowing for recovery in case of system failure or crashes." style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="930" y="25" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-90" value="ElasticSearch DB. for dashboards and error monitoring" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-90" value="ElasticSearch DB. for dashboards and error monitoring" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="1160" y="115" width="90" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-91" value="&lt;b&gt;Logstash&lt;/b&gt;: Logstash is part of the ELK stack (Elasticsearch, Logstash, Kibana) used for log ingestion, processing, and forwarding. It allows you to collect logs from various sources, parse them into a common format, and send them to a centralized system like Elasticsearch for storage and analysis. &lt;br&gt;&lt;b&gt;Elasticsearch&lt;/b&gt;: Elasticsearch is a distributed, RESTful search and analytics engine designed for horizontal scalability, speed, and real-time search. &lt;br&gt;&lt;b&gt;Kibana&lt;/b&gt;: Kibana is a visualization tool used to explore and visualize data stored in Elasticsearch. It provides a user interface for querying, analyzing, and creating visualizations from the log data." style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-91" value="&lt;b&gt;Logstash&lt;/b&gt;: Logstash is part of the ELK stack (Elasticsearch, Logstash, Kibana) used for log ingestion, processing, and forwarding. It allows you to collect logs from various sources, parse them into a common format, and send them to a centralized system like Elasticsearch for storage and analysis. &lt;br&gt;&lt;b&gt;Elasticsearch&lt;/b&gt;: Elasticsearch is a distributed, RESTful search and analytics engine designed for horizontal scalability, speed, and real-time search. &lt;br&gt;&lt;b&gt;Kibana&lt;/b&gt;: Kibana is a visualization tool used to explore and visualize data stored in Elasticsearch. It provides a user interface for querying, analyzing, and creating visualizations from the log data." style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1310" y="-165" width="500" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-91" target="EQkBLZ_68zLxbS4yyMJ8-90">
+        <mxCell id="EQkBLZ_68zLxbS4yyMJ8-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EQkBLZ_68zLxbS4yyMJ8-91" target="EQkBLZ_68zLxbS4yyMJ8-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
