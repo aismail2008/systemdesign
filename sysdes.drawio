@@ -149,7 +149,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kW378scqaF27wL95GdWb-39" target="kW378scqaF27wL95GdWb-100">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="5" y="400" />
+              <mxPoint x="350" y="400" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-102" value="UUID" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kW378scqaF27wL95GdWb-101">
           <mxGeometry x="-0.9371" y="1" relative="1" as="geometry">
