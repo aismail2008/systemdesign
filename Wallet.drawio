@@ -523,10 +523,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-161" value="Command" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry y="1280" width="90" height="35" as="geometry" />
+          <mxGeometry y="1282" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-163" value="Event" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="310" y="1280" width="90" height="35" as="geometry" />
+          <mxGeometry x="310" y="1283" width="90" height="35" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aTDH64eMhzKc28g5l6rG-164" target="aTDH64eMhzKc28g5l6rG-163" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -538,7 +538,7 @@
           <mxGeometry x="180" y="1280" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-167" value="State DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="185" y="1350" width="30" height="40" as="geometry" />
+          <mxGeometry x="167.5" y="1350" width="65" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-169" value="In Memory Cache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="215" y="1360" width="120" height="30" as="geometry" />
@@ -547,13 +547,13 @@
           <mxGeometry x="-30" y="1460" width="500" height="230" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-171" value="Command File" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="10" y="1520" width="60" height="80" as="geometry" />
+          <mxGeometry x="15" y="1520" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-172" value="StateFile" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="180" y="1520" width="60" height="80" as="geometry" />
+          <mxGeometry x="170" y="1520" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-173" value="Event File" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="340" y="1520" width="60" height="80" as="geometry" />
+          <mxGeometry x="325" y="1520" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aTDH64eMhzKc28g5l6rG-161" target="aTDH64eMhzKc28g5l6rG-171" edge="1">
           <mxGeometry relative="1" as="geometry" />
