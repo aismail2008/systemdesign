@@ -359,7 +359,7 @@
           <mxGeometry x="340" y="850" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-112" value="State DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="440" y="850" width="30" height="40" as="geometry" />
+          <mxGeometry x="460" y="840" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-113" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="915" width="580" height="50" as="geometry" />
@@ -390,7 +390,7 @@
           <mxGeometry x="340" y="920" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-120" value="Historical DB for state" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="440" y="920" width="30" height="40" as="geometry" />
+          <mxGeometry x="459" y="910" width="70" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-121" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="775" width="580" height="50" as="geometry" />
@@ -421,7 +421,7 @@
           <mxGeometry x="340" y="780" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-128" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="440" y="780" width="30" height="40" as="geometry" />
+          <mxGeometry x="460" y="775" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-129" value="4 Raft" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="aTDH64eMhzKc28g5l6rG-109" target="aTDH64eMhzKc28g5l6rG-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
