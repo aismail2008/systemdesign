@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="xOBLhyYj3MYxFQuUd8QE">
-    <mxGraphModel dx="2524" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2524" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-59" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-59" value="" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="850" y="-435" width="440" height="305" as="geometry" />
         </mxCell>
         <mxCell id="aTDH64eMhzKc28g5l6rG-189" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -630,57 +630,57 @@
         <mxCell id="YppnX6lDdSpga8ntmvUr-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;APIs&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: initial; font-size: 12px; font-weight: normal;&quot;&gt;- POST /v1/wallet/balance_transfer {from, to, amount, currency, ..}&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="140" y="-840" width="350" height="162.5" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-1" target="wyu4AdQ__Pr_zeic_Puu-2">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-1" target="wyu4AdQ__Pr_zeic_Puu-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-9" value="$1 from A -&amp;gt; B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-6">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-9" value="$1 from A -&amp;gt; B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-6" vertex="1" connectable="0">
           <mxGeometry x="0.0667" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="420" y="-700" width="15" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-2" target="wyu4AdQ__Pr_zeic_Puu-3">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-2" target="wyu4AdQ__Pr_zeic_Puu-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-2" value="Webserver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-2" value="Webserver" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="-570" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-4">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-10" value="(1)In which partition/server&lt;br&gt;&amp;nbsp;is A and B accounts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-5">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-10" value="(1)In which partition/server&lt;br&gt;&amp;nbsp;is A and B accounts" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-5" vertex="1" connectable="0">
           <mxGeometry x="-0.2145" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-12">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-14" value="(2) store current &lt;br&gt;request status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-13">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-14" value="(2) store current &lt;br&gt;request status" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-13" vertex="1" connectable="0">
           <mxGeometry x="0.3744" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-3" value="CoordinatorSaga" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-3" value="CoordinatorSaga" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="375" y="-480" width="105" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-4" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-4" value="Zookeeper" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="780" y="-485" width="60" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-12" value="Transaction Status" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-12" value="Transaction Status" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="120" y="-500" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-15" target="wyu4AdQ__Pr_zeic_Puu-41">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-15" target="wyu4AdQ__Pr_zeic_Puu-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-47" value="(3.a) Validate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-42">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-47" value="(3.a) Validate" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-42" vertex="1" connectable="0">
           <mxGeometry x="0.1143" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-15" target="wyu4AdQ__Pr_zeic_Puu-61">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-15" target="wyu4AdQ__Pr_zeic_Puu-61" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="-350" />
@@ -688,7 +688,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-15" target="wyu4AdQ__Pr_zeic_Puu-62">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-15" target="wyu4AdQ__Pr_zeic_Puu-62" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="550" y="-350" />
@@ -697,120 +697,120 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-15" value="Server1 contains A" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-15" value="Server1 contains A" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="-380" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.829;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.158;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-15">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.829;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.158;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-15" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="-330" as="sourcePoint" />
             <mxPoint x="510" y="-380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-18" value="(3) send command -1$ from A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-17">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-18" value="(3) send command -1$ from A" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-17" vertex="1" connectable="0">
           <mxGeometry x="0.083" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-41" target="wyu4AdQ__Pr_zeic_Puu-43">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-41" target="wyu4AdQ__Pr_zeic_Puu-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-41" target="wyu4AdQ__Pr_zeic_Puu-31">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-41" target="wyu4AdQ__Pr_zeic_Puu-31" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-41" value="Command" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-41" value="Command" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="910" y="-390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-43" target="wyu4AdQ__Pr_zeic_Puu-45">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-43" target="wyu4AdQ__Pr_zeic_Puu-45" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-43" target="wyu4AdQ__Pr_zeic_Puu-51">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-43" target="wyu4AdQ__Pr_zeic_Puu-51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-43" value="State" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-43" value="State" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1030" y="-390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-45" target="wyu4AdQ__Pr_zeic_Puu-53">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-45" target="wyu4AdQ__Pr_zeic_Puu-53" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-45" value="List of Event" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=0" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-45" value="List of Event" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="1165" y="-390" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-56" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-56" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="880" y="-270" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-48" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wyu4AdQ__Pr_zeic_Puu-56">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-48" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="wyu4AdQ__Pr_zeic_Puu-56" vertex="1">
           <mxGeometry y="10" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-31" value="Store data either in file locally or DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wyu4AdQ__Pr_zeic_Puu-56">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-31" value="Store data either in file locally or DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="wyu4AdQ__Pr_zeic_Puu-56" vertex="1">
           <mxGeometry x="40" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-57" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-57" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1000" y="-270" width="100" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-50" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wyu4AdQ__Pr_zeic_Puu-57">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-50" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="wyu4AdQ__Pr_zeic_Puu-57" vertex="1">
           <mxGeometry y="10" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-51" value="Store data either in file locally or DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wyu4AdQ__Pr_zeic_Puu-57">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-51" value="Store data either in file locally or DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="wyu4AdQ__Pr_zeic_Puu-57" vertex="1">
           <mxGeometry x="40" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-58" value="" style="group" vertex="1" connectable="0" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-58" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1150" y="-270" width="85" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-52" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="wyu4AdQ__Pr_zeic_Puu-58">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-52" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="wyu4AdQ__Pr_zeic_Puu-58" vertex="1">
           <mxGeometry y="20" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-53" value="Store data either in file locally or DB" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="wyu4AdQ__Pr_zeic_Puu-58">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-53" value="Store data either in file locally or DB" style="rounded=0;whiteSpace=wrap;html=1;" parent="wyu4AdQ__Pr_zeic_Puu-58" vertex="1">
           <mxGeometry x="25" width="60" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-60" value="In Memory and local file then DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-60" value="In Memory and local file then DB" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="865" y="-430" width="155" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-61" value="Server2 Replica" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-61" value="Server2 Replica" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="-310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-62" value="Servern Replica" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-62" value="Servern Replica" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="590" y="-200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-65" value="(3.b)&lt;br&gt;&amp;nbsp;RAFT consensus Algorithm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-65" value="(3.b)&lt;br&gt;&amp;nbsp;RAFT consensus Algorithm" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="590" y="-320" as="geometry">
             <mxPoint x="-46" y="74" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-66" value="Status Update Service (CQRS)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-66" value="Status Update Service (CQRS)" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="-90" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-66" target="wyu4AdQ__Pr_zeic_Puu-50">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-66" target="wyu4AdQ__Pr_zeic_Puu-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-70" value="(3.c)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-67">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-70" value="(3.c)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-67" vertex="1" connectable="0">
           <mxGeometry x="-0.7282" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-66" target="wyu4AdQ__Pr_zeic_Puu-3">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.381;entryY=1.1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-66" target="wyu4AdQ__Pr_zeic_Puu-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-71" value="Read status and&lt;br&gt;update asynchronously" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-68">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-71" value="Read status and&lt;br&gt;update asynchronously" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-68" vertex="1" connectable="0">
           <mxGeometry x="-0.614" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-72" target="wyu4AdQ__Pr_zeic_Puu-41">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-72" target="wyu4AdQ__Pr_zeic_Puu-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-72" value="This can be Kafka howerver we wanted to save network traverse time.&lt;br&gt;&lt;br&gt;We move queut to be on memory and serialize it to disk using mmap Technique" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="829.5" y="-640" width="240" height="125" as="geometry" />
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-72" value="This can be Kafka howerver we wanted to save network traverse time.&lt;br&gt;&lt;br&gt;We move queut to be on memory and serialize it to disk using mmap Technique" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="829.5" y="-590" width="240.5" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-74" value="Server2 contains B" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-74" value="Server2 contains B" style="whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="5" y="-300" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-74">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-75" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" parent="1" source="wyu4AdQ__Pr_zeic_Puu-3" target="wyu4AdQ__Pr_zeic_Puu-74" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="472" y="-429" as="sourcePoint" />
             <mxPoint x="619" y="-368" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="wyu4AdQ__Pr_zeic_Puu-76" value="(4) do same for +1$ for B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="wyu4AdQ__Pr_zeic_Puu-75">
+        <mxCell id="wyu4AdQ__Pr_zeic_Puu-76" value="(4) do same for +1$ for B" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="wyu4AdQ__Pr_zeic_Puu-75" vertex="1" connectable="0">
           <mxGeometry x="0.083" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
