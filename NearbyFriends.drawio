@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="cagw17x6ftYsTEXhxTAl">
-    <mxGraphModel dx="2284" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2524" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,6 +103,9 @@
         </mxCell>
         <mxCell id="t4TClTuSQzGhTtpf5ES--21" value="Location History DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="490" y="470" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7ezOe9VDTun-3j5S0DuM-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4TClTuSQzGhTtpf5ES--23" target="7ezOe9VDTun-3j5S0DuM-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t4TClTuSQzGhTtpf5ES--23" value="Location Cache" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="220" y="400" width="100" height="40" as="geometry" />
@@ -235,6 +238,12 @@
         </mxCell>
         <mxCell id="t4TClTuSQzGhTtpf5ES--64" value="Distributed Redis Cluster" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="60" y="620" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="7ezOe9VDTun-3j5S0DuM-2" value="Location DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="240" y="482" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7ezOe9VDTun-3j5S0DuM-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="7ezOe9VDTun-3j5S0DuM-2" target="t4TClTuSQzGhTtpf5ES--21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
