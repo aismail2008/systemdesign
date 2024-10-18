@@ -9,24 +9,68 @@ intall locally on mac using this command
 ```brew install --cask drawio```
 you can also downlaod from this link https://www.drawio.com/
 
-For each
-(1) Scope and requirments
-	* Use cases if not mentioned
-	* Assumptions section on going (include Out-Of-Scope)
+How to approach system design.
+> (1) Requirments --> (2) Core Entities --> (3) API --> (4) High-level Design --> (5) Deep Dive 
 
-	* Read : Write ratio
-	* Size of raw for each object store per each DB to know the scale of DB cache/memory/DB
+-----
+1) Requirments : 3 - 5 minuutes max
 
-(2) agree and get buy-in for high-level flow and design of your system
-	high level compoentnt with 
-		APIs POST/GET/...etc and type of data transfered
-		Maybe define if encryption is needed HTTPs or WebSocket?
+	[Function Req]: Min features for system. For example, for ticketing system:
+	- Book tickets
+	- view an event
+	- search for events
 
-(3) Dive deep
-	for each module and address :
-	- Scalability or
-	- Consitency 
-	- Latency for each bottelneck
+	[Non-functional requirements]: Are your system quality.
+	First ask yourself about CAP theorem but more related to system not generic like just saying consistency and/or availability
+	Example:
+	- Strong Consistency in booking tickets and high availability for search tickets
+	- Read >> Write
+	- Scalability
 
+	[Out of Scope]
+	- DBR
+	- Fault Tolerance
+	- Payment, 
+	- etc
+
+	[Calculations]
+	refer to this section as long as you have some numbers to refer or build on 
+-----
+2) Core Entities: 2 minutes
+
+Understanding data presisted in your system and exhanged between APIS.
+For now it's enough to list entities not detailed attributes as it's early and will know them by dive deep later
+For example in ticketing system:
+- Events
+- Venue
+- Performer
+- Ticket
+
+3) APIs: 3 mintues
+
+This depends if your ssytem has exposed APIs
+Ex:
+- GET /v1/event/:eventId -> returns event and venu and performere & ticket []
+- GET /v1/search?term={term}&location{loc}&.... -> return parial<Event>[]
+
+- POST /v1/booking/reserve
+body{
+	ticketId
+}
+- POST /v1/booking/confirm
+body{
+	ticketId
+	paymentDetails(Stripe/Adyne)
+}
+
+-----
+4). High-level Design 15-20 minutes
+
+Purpose here is to satisify the functional requirmenets
+
+-----
+5). Deep Dive: Design 15 minutes
+
+Purpose here is to satisify the non-functional requirmenets by revisiting your initial high-level design
 
 
