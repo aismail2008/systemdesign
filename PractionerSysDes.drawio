@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.17">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
   <diagram name="Page-1" id="GA1tQ0nth13tkmFfaKld">
     <mxGraphModel dx="2524" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -322,7 +322,7 @@
           <mxGeometry x="860" y="120" width="90" height="100" as="geometry" />
         </mxCell>
         <mxCell id="bIrOjGemPtrH5_vHYNhd-110" value="&lt;b&gt;Logstash&lt;/b&gt;: Logstash is part of the ELK stack (Elasticsearch, Logstash, Kibana) used for log ingestion, processing, and forwarding. It allows you to collect logs from various sources, parse them into a common format, and send them to a centralized system like Elasticsearch for storage and analysis. &lt;br&gt;&lt;b&gt;Elasticsearch&lt;/b&gt;: Elasticsearch is a distributed, RESTful search and analytics engine designed for horizontal scalability, speed, and real-time search. &lt;br&gt;&lt;b&gt;Kibana&lt;/b&gt;: Kibana is a visualization tool used to explore and visualize data stored in Elasticsearch. It provides a user interface for querying, analyzing, and creating visualizations from the log data." style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="-160" width="500" height="290" as="geometry" />
+          <mxGeometry x="1010" y="-160" width="370" height="430" as="geometry" />
         </mxCell>
         <mxCell id="A5WjXKPPOLo0uN8WTrpS-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="bIrOjGemPtrH5_vHYNhd-110" target="bIrOjGemPtrH5_vHYNhd-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
