@@ -7,7 +7,7 @@ You can either create a new diagram, or open an existing diagram.
 Option 2:
 intall locally on mac using this command
 ```brew install --cask drawio```
-you can also downlaod from this link https://www.drawio.com/
+you can also downlaod from this link https://www.drawio.com/ or this link https://app.diagrams.net/?src=about
 
 How to approach system design.
 > (1) Requirments --> (2) Core Entities --> (3) API --> (4) High-level Design --> (5) Deep Dive 
