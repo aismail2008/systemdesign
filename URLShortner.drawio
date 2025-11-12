@@ -167,6 +167,9 @@
         <mxCell id="2v2iml6TRO0XPxexc9R0-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.375;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="BYZh3V2_Q9m8iPzlMA-B-18" target="2v2iml6TRO0XPxexc9R0-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="dmXh4rTWb66CZiosd6L1-3" value="&lt;b&gt;RateLimiting&lt;/b&gt; can be applied for security" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="700" y="287.5" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
