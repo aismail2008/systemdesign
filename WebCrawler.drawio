@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="Page-1" id="y2FAcHWOnN0RvBgoWqoK">
-    <mxGraphModel dx="2524" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="-170" y="330" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BYZh3V2_Q9m8iPzlMA-B-16" value="NOSQL DB (can be Redis ex)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="437.5" y="750" width="75" height="70" as="geometry" />
+          <mxGeometry x="430" y="750" width="82.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BYZh3V2_Q9m8iPzlMA-B-49" value="&lt;a href=&quot;https://github.com/donnemartin/system-design-primer/blob/master/solutions/system_design/web_crawler/README.md&quot;&gt;Link&lt;/a&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="50" width="60" height="30" as="geometry" />
@@ -54,11 +54,14 @@
         <mxCell id="qxikN-9vf04oBCAKTXGc-24" value="#List_to_crawl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="340" y="780" width="100" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="37UljJPTKSYljrx0RBi7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="qxikN-9vf04oBCAKTXGc-25" target="ThNtnLXOAQ6GzVozy26J-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-25" value="&lt;b&gt;Internet&lt;/b&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="780" y="440" width="120" height="80" as="geometry" />
+          <mxGeometry x="729" y="485" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-27" value="1) Get pages to crawl with higher priority&lt;br&gt;2) Check page Signature in crawled_lists&lt;br&gt;3) if paged visited before, push it with lower rank&lt;br&gt;4) if not, crawl&lt;br&gt;&lt;br&gt;Put new pages from crawled page into DB of list_to_crawl" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="840" width="272.5" height="120" as="geometry" />
+          <mxGeometry x="570" y="840" width="272.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="qxikN-9vf04oBCAKTXGc-30" target="BYZh3V2_Q9m8iPzlMA-B-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -127,19 +130,16 @@
           <mxGeometry y="360" width="272.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-60" value="&lt;div title=&quot;Page 390&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10.000000pt; font-family: &#39;*Calibri-11311-Identity-H&#39;; color: rgb(21.600000%, 20.000000%, 18.400000%); vertical-align: -1.000000pt&quot;&gt;&lt;b&gt;To prevent infinite loops&lt;/b&gt;, we just need to detect cycles. One way to do this is to create a hash table where we&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10.000000pt; font-family: &#39;*Calibri-11311-Identity-H&#39;; color: rgb(21.600000%, 20.000000%, 18.400000%); vertical-align: -1.000000pt&quot;&gt;set hash[v] to true after we visit page v&lt;br&gt;BTW, V can be list of title or headers in page not URL.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&#x9;&#x9;&#x9;&lt;/div&gt;&lt;br&gt;&#x9;&#x9;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="530" y="980" width="272.5" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="qxikN-9vf04oBCAKTXGc-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="qxikN-9vf04oBCAKTXGc-61" target="qxikN-9vf04oBCAKTXGc-60" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="280" y="940" width="272.5" height="90" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-61" value="#Crawled_lists" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="425" y="830" width="110" height="30" as="geometry" />
+          <mxGeometry x="405.5" y="840" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-66" value="Optimize query by removing spaces, type, ..etc" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-270" y="505" width="110" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-67" value="&lt;div title=&quot;Page 390&quot; class=&quot;page&quot;&gt;&lt;div class=&quot;layoutArea&quot;&gt;&lt;div class=&quot;column&quot;&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10.000000pt; font-family: &#39;*Calibri-11311-Identity-H&#39;; color: rgb(21.200000%, 19.600000%, 18.000000%)&quot;&gt;We can crawl the web using &lt;b&gt;breadth-first search&lt;/b&gt;. Each time we visit a page, we gather all its links and insert&lt;br&gt;them at the end of a queue. If we&#39;ve already visited a page, &lt;b&gt;we ignore it.&amp;nbsp;&lt;/b&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&#x9;&#x9;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="98" y="840" width="272.5" height="100" as="geometry" />
+          <mxGeometry x="80" y="795" width="272.5" height="100" as="geometry" />
         </mxCell>
         <mxCell id="qxikN-9vf04oBCAKTXGc-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.998;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qxikN-9vf04oBCAKTXGc-24" target="qxikN-9vf04oBCAKTXGc-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -147,8 +147,16 @@
         <mxCell id="ThNtnLXOAQ6GzVozy26J-1" value="QueryService" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="565" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ThNtnLXOAQ6GzVozy26J-2" value="Seed&lt;br&gt;and classify URLs" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="640" y="520" width="100" height="60" as="geometry" />
+        <mxCell id="37UljJPTKSYljrx0RBi7-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ThNtnLXOAQ6GzVozy26J-2" target="ThNtnLXOAQ6GzVozy26J-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="466" y="580" />
+              <mxPoint x="970" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ThNtnLXOAQ6GzVozy26J-2" value="Seed&lt;br&gt;and &lt;b&gt;classify URLs&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="415.5" y="510" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ThNtnLXOAQ6GzVozy26J-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ThNtnLXOAQ6GzVozy26J-32" target="ThNtnLXOAQ6GzVozy26J-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -174,18 +182,8 @@
         <mxCell id="ThNtnLXOAQ6GzVozy26J-39" value="DNS/Cached" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="744.5" y="800" width="58" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ThNtnLXOAQ6GzVozy26J-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ThNtnLXOAQ6GzVozy26J-41" target="ThNtnLXOAQ6GzVozy26J-2" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="960" y="550" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ThNtnLXOAQ6GzVozy26J-41" value="Link Extractor" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="920" y="590" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="ThNtnLXOAQ6GzVozy26J-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.94;entryY=0.083;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qxikN-9vf04oBCAKTXGc-25" target="ThNtnLXOAQ6GzVozy26J-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ThNtnLXOAQ6GzVozy26J-46" value="Content Store DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="437.5" y="1090" width="75" height="70" as="geometry" />
@@ -231,25 +229,31 @@
         <mxCell id="7Rw3T_PEjem9srfyKL76-2" value="Tells which page goes to which queue" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1468" y="1044.27" width="92.5" height="58.55" as="geometry" />
         </mxCell>
-        <mxCell id="_pDh88yNNiYUQJ8OwB9z-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.855;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" edge="1" parent="1" source="ThNtnLXOAQ6GzVozy26J-2" target="BYZh3V2_Q9m8iPzlMA-B-16">
+        <mxCell id="_pDh88yNNiYUQJ8OwB9z-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.145;entryY=0;entryDx=0;entryDy=4.35;entryPerimeter=0;" parent="1" source="ThNtnLXOAQ6GzVozy26J-2" target="BYZh3V2_Q9m8iPzlMA-B-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="540" y="790" as="sourcePoint" />
             <mxPoint x="590" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pDh88yNNiYUQJ8OwB9z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ThNtnLXOAQ6GzVozy26J-56" target="ThNtnLXOAQ6GzVozy26J-46">
+        <mxCell id="_pDh88yNNiYUQJ8OwB9z-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="ThNtnLXOAQ6GzVozy26J-56" target="ThNtnLXOAQ6GzVozy26J-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="920" y="1125" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_pDh88yNNiYUQJ8OwB9z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qxikN-9vf04oBCAKTXGc-43" target="ThNtnLXOAQ6GzVozy26J-46">
+        <mxCell id="_pDh88yNNiYUQJ8OwB9z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qxikN-9vf04oBCAKTXGc-43" target="ThNtnLXOAQ6GzVozy26J-46" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="50" y="1125" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="37UljJPTKSYljrx0RBi7-1" value="snippets/titles to appear in list of results" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="740" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="37UljJPTKSYljrx0RBi7-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.631;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qxikN-9vf04oBCAKTXGc-61" target="qxikN-9vf04oBCAKTXGc-60">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
