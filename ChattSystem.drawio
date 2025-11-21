@@ -586,7 +586,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-35" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Multiple servers each maintain set of user connection" vertex="1">
-          <mxGeometry height="30" width="120" x="1753" y="-146.25" as="geometry" />
+          <mxGeometry height="30" width="120" x="1739.88" y="-160" as="geometry" />
         </mxCell>
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-39" edge="1" parent="1" source="ESiGrf_ERLCwZTn-2xgo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;" target="ESiGrf_ERLCwZTn-2xgo-4">
           <mxGeometry relative="1" as="geometry">
@@ -600,8 +600,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-41" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="-&amp;nbsp; Redis message bus. Pub/Sub are very cheap and lightweight&lt;br&gt;&lt;br&gt;- One server can hold &lt;b&gt;Millions &lt;/b&gt;of channels/topic&lt;br&gt;&lt;br&gt;Sent messages are immediately sent to all subscribers&lt;br&gt;&lt;br&gt;if no subscriber message is just dropped" vertex="1">
-          <mxGeometry height="185" width="310" x="1393" y="-106.25" as="geometry" />
+        <mxCell id="ESiGrf_ERLCwZTn-2xgo-41" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="-&amp;nbsp; Redis message bus. Pub/Sub are very cheap and lightweight&lt;br&gt;&lt;br&gt;- One server can hold &lt;b&gt;Millions &lt;/b&gt;of channels/topic&lt;br&gt;&lt;br&gt;Sent messages are immediately sent to all subscribers&lt;br&gt;&lt;br&gt;if no subscriber message is just dropped" vertex="1">
+          <mxGeometry height="185" width="473" x="1379" y="-116.25" as="geometry" />
         </mxCell>
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-59" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -821,16 +821,14 @@
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-163" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Or GeoHash based" vertex="1">
           <mxGeometry height="30" width="60" x="1820" y="406" as="geometry" />
         </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-167" edge="1" parent="1" source="ESiGrf_ERLCwZTn-2xgo-166" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ESiGrf_ERLCwZTn-2xgo-131">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KKaNaBtpcP_l4Y0HkDMV-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center; background-color: rgb(255, 255, 255); float: none; display: inline !important;&quot;&gt;&lt;b&gt;When user login;&amp;nbsp;&lt;/b&gt;WS Server do:&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;1- Store location in history DB&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;2- Update user location in cache&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;3- publish to his redis queue&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;4- Get list of firends to cache in memory/local&lt;br&gt;5- Get user&#39;s friends location and calculate distance of who is nearby &lt;br&gt;6- send updated user with latest online list for his friends&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237)); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 11px; text-align: center;&quot;&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-size: 11px; text-wrap-mode: nowrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;b&gt;Step 5 to 6 are repeated every 10s to update online list&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="341" x="1452" y="-410" as="geometry" />
         </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-168" connectable="0" parent="ESiGrf_ERLCwZTn-2xgo-167" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="load all firends &lt;br&gt;location and &lt;br&gt;check online friends&amp;nbsp;" vertex="1">
-          <mxGeometry relative="1" x="-0.2789" y="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+        <mxCell id="KKaNaBtpcP_l4Y0HkDMV-3" edge="1" parent="1" source="ESiGrf_ERLCwZTn-2xgo-16" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" target="KKaNaBtpcP_l4Y0HkDMV-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1480" y="-150" as="sourcePoint" />
+            <mxPoint x="1530" y="-200" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-166" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="Location Cache" vertex="1">
-          <mxGeometry height="40" width="100" x="1626" y="586" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
