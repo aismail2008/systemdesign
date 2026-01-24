@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="_omLd40gxrhuzkDiTgc6">
-    <mxGraphModel dx="2276" dy="1958" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2751" dy="2167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" adaptiveColors="none">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -668,10 +668,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-95" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="User A" vertex="1">
-          <mxGeometry height="30" width="18" x="1979" y="171" as="geometry" />
+          <mxGeometry height="30" width="18" x="1979" y="140" as="geometry" />
         </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-96" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="User B" vertex="1">
-          <mxGeometry height="30" width="18" x="2194" y="176" as="geometry" />
+        <mxCell id="ESiGrf_ERLCwZTn-2xgo-96" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.smartphone;" value="User B&lt;br&gt;1: user loc update&lt;br&gt;friends: W, Z" vertex="1">
+          <mxGeometry height="30" width="18" x="2194" y="140" as="geometry" />
         </mxCell>
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="User A WS Server" vertex="1">
           <mxGeometry height="40" width="96" x="1940" y="276" as="geometry" />
@@ -685,15 +685,15 @@
             <mxPoint x="1990" y="241" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-127" connectable="0" parent="ESiGrf_ERLCwZTn-2xgo-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1: User loc update" vertex="1">
+        <mxCell id="ESiGrf_ERLCwZTn-2xgo-127" connectable="0" parent="ESiGrf_ERLCwZTn-2xgo-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1: User loc update&lt;br&gt;friends: X, Y, W" vertex="1">
           <mxGeometry relative="1" x="0.2" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ESiGrf_ERLCwZTn-2xgo-103" edge="1" parent="1" source="ESiGrf_ERLCwZTn-2xgo-100" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="ESiGrf_ERLCwZTn-2xgo-96" value="">
+        <mxCell id="ESiGrf_ERLCwZTn-2xgo-103" edge="1" parent="1" source="ESiGrf_ERLCwZTn-2xgo-100" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <mxPoint x="2189.5" y="276.5" as="sourcePoint" />
-            <mxPoint x="2189.5" y="201.5" as="targetPoint" />
+            <mxPoint x="2203" y="220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ESiGrf_ERLCwZTn-2xgo-119" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Session/Websocket &lt;br&gt;server" vertex="1">
