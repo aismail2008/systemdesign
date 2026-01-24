@@ -27,7 +27,7 @@ How to approach system design.
 	- Read >> Write
 	- Scalability
 
-	[Out of Scope]
+	[Assumptions and Out of Scope]
 	- DBR
 	- Fault Tolerance
 	- Payment, 
