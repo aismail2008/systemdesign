@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="qewocp9qWGF084Xped2Q">
-    <mxGraphModel dx="3227" dy="2433" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3044" dy="2331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="AU1NNC18Ojmz-x1suM1B-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Use Cases/ FR&lt;/h1&gt;&lt;article data-scroll-anchor=&quot;false&quot; data-testid=&quot;conversation-turn-18&quot; dir=&quot;auto&quot; class=&quot;w-full text-token-text-primary focus-visible:outline-2 focus-visible:outline-offset-[-4px]&quot;&gt;&lt;div class=&quot;m-auto text-base py-[18px] px-3 md:px-4 w-full md:px-5 lg:px-4 xl:px-5&quot;&gt;&lt;div class=&quot;mx-auto flex flex-1 gap-4 text-base md:gap-5 lg:gap-6 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]&quot;&gt;&lt;div class=&quot;group/conversation-turn relative flex w-full min-w-0 flex-col&quot;&gt;&lt;div class=&quot;flex-col gap-1 md:gap-3&quot;&gt;&lt;div class=&quot;flex max-w-full flex-col flex-grow&quot;&gt;&lt;div class=&quot;min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;amp;]:mt-5&quot; dir=&quot;auto&quot; data-message-id=&quot;aaa2f6ea-3e5b-4962-af3a-48d196b2f359&quot; data-message-author-role=&quot;user&quot;&gt;&lt;div class=&quot;flex w-full flex-col gap-1 empty:hidden items-end rtl:items-start&quot;&gt;&lt;div class=&quot;relative max-w-[70%] rounded-3xl px-5 py-2.5 bg-[#f4f4f4] dark:bg-token-main-surface-secondary&quot;&gt;&lt;div class=&quot;whitespace-pre-wrap&quot;&gt;Design a ticket booking system for an airline company.&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;absolute bottom-0 right-full top-0 -mr-3.5 hidden pr-5 pt-1 [.group\/conversation-turn:hover_&amp;amp;]:block&quot;&gt;&lt;span data-state=&quot;closed&quot; class=&quot;&quot;&gt;&lt;button class=&quot;flex h-9 w-9 items-center justify-center rounded-full text-token-text-secondary transition hover:bg-token-main-surface-tertiary&quot; aria-label=&quot;Edit message&quot;&gt;&lt;svg class=&quot;icon-md&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; fill=&quot;none&quot; viewBox=&quot;0 0 24 24&quot; height=&quot;24&quot; width=&quot;24&quot;&gt;&lt;path fill=&quot;currentColor&quot; d=&quot;M13.2929 4.29291C15.0641 2.52167 17.9359 2.52167 19.7071 4.2929C21.4784 6.06414 21.4784 8.93588 19.7071 10.7071L18.7073 11.7069L11.6135 18.8007C10.8766 19.5376 9.92793 20.0258 8.89999 20.1971L4.16441 20.9864C3.84585 21.0395 3.52127 20.9355 3.29291 20.7071C3.06454 20.4788 2.96053 20.1542 3.01362 19.8356L3.80288 15.1C3.9742 14.0721 4.46243 13.1234 5.19932 12.3865L13.2929 4.29291ZM13 7.41422L6.61353 13.8007C6.1714 14.2428 5.87846 14.8121 5.77567 15.4288L5.21656 18.7835L8.57119 18.2244C9.18795 18.1216 9.75719 17.8286 10.1993 17.3865L16.5858 11L13 7.41422ZM18 9.5858L14.4142 6.00001L14.7071 5.70712C15.6973 4.71693 17.3027 4.71693 18.2929 5.70712C19.2831 6.69731 19.2831 8.30272 18.2929 9.29291L18 9.5858Z&quot; clip-rule=&quot;evenodd&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/button&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;article data-scroll-anchor=&quot;true&quot; data-testid=&quot;conversation-turn-19&quot; dir=&quot;auto&quot; class=&quot;w-full text-token-text-primary focus-visible:outline-2 focus-visible:outline-offset-[-4px]&quot;&gt;&lt;h6 class=&quot;sr-only&quot;&gt;&lt;/h6&gt;&lt;/article&gt;&lt;p&gt;&lt;br&gt;- desktop only support&lt;/p&gt;&lt;p&gt;- Search using source, destination, date,&lt;/p&gt;&lt;p&gt;- book flight&lt;/p&gt;&lt;p&gt;- Notification&lt;/p&gt;&lt;p&gt;- payment service is available&lt;br&gt;- availbilty of flights is provided as existing system&lt;/p&gt;" vertex="1">
-          <mxGeometry height="310" width="210" x="-600" as="geometry" />
+        <mxCell id="qBINTelJXr9Wd9Juulnd-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="400" width="420" x="-690" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="AU1NNC18Ojmz-x1suM1B-1" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Use Cases/ FR&lt;/h1&gt;&lt;article data-scroll-anchor=&quot;false&quot; data-testid=&quot;conversation-turn-18&quot; dir=&quot;auto&quot; class=&quot;w-full text-token-text-primary focus-visible:outline-2 focus-visible:outline-offset-[-4px]&quot;&gt;&lt;div class=&quot;m-auto text-base py-[18px] px-3 md:px-4 w-full md:px-5 lg:px-4 xl:px-5&quot;&gt;&lt;div class=&quot;mx-auto flex flex-1 gap-4 text-base md:gap-5 lg:gap-6 md:max-w-3xl lg:max-w-[40rem] xl:max-w-[48rem]&quot;&gt;&lt;div class=&quot;group/conversation-turn relative flex w-full min-w-0 flex-col&quot;&gt;&lt;div class=&quot;flex-col gap-1 md:gap-3&quot;&gt;&lt;div class=&quot;flex max-w-full flex-col flex-grow&quot;&gt;&lt;div class=&quot;min-h-8 text-message flex w-full flex-col items-end gap-2 whitespace-normal break-words [.text-message+&amp;amp;]:mt-5&quot; dir=&quot;auto&quot; data-message-id=&quot;aaa2f6ea-3e5b-4962-af3a-48d196b2f359&quot; data-message-author-role=&quot;user&quot;&gt;&lt;div class=&quot;flex w-full flex-col gap-1 empty:hidden items-end rtl:items-start&quot;&gt;&lt;div class=&quot;relative max-w-[70%] rounded-3xl px-5 py-2.5 bg-[#f4f4f4] dark:bg-token-main-surface-secondary&quot;&gt;&lt;div class=&quot;whitespace-pre-wrap&quot;&gt;Design a ticket booking system for an airline company.&lt;/div&gt;&lt;div class=&quot;whitespace-pre-wrap&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div class=&quot;whitespace-pre-wrap&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/article&gt;&lt;p&gt;- desktop only support&lt;/p&gt;&lt;p&gt;- Search using source, destination, date,&lt;/p&gt;&lt;p&gt;- book flight&lt;/p&gt;&lt;p&gt;- Notification&lt;/p&gt;&lt;p&gt;- payment service is available&lt;br&gt;- availbilty of flights is provided as existing system&lt;/p&gt;" vertex="1">
+          <mxGeometry height="310" width="260" x="-585" as="geometry" />
         </mxCell>
         <mxCell id="AU1NNC18Ojmz-x1suM1B-2" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;NFR&lt;/h1&gt;&lt;p&gt;- Availability&lt;/p&gt;&lt;p&gt;- Scale&lt;/p&gt;&lt;p&gt;- CC&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Size&lt;/h1&gt;&lt;p&gt;- # users&amp;nbsp;&lt;/p&gt;&lt;p&gt;- 60 rqs for booking&amp;nbsp;&lt;/p&gt;&lt;p&gt;- CC&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;APIs&lt;/b&gt;&lt;br&gt;&lt;br&gt;- GET /v1/serach_flights/ {source, desting, l...}&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;- POST /v1/book_flight/ { number of travellers, ..}&lt;/p&gt;" vertex="1">
           <mxGeometry height="410" width="180" x="-780" y="10" as="geometry" />
@@ -24,20 +27,26 @@
         <mxCell id="kW378scqaF27wL95GdWb-3" edge="1" parent="1" source="AU1NNC18Ojmz-x1suM1B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AU1NNC18Ojmz-x1suM1B-8" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="qBINTelJXr9Wd9Juulnd-2" edge="1" parent="1" source="AU1NNC18Ojmz-x1suM1B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AU1NNC18Ojmz-x1suM1B-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qBINTelJXr9Wd9Juulnd-3" edge="1" parent="1" source="AU1NNC18Ojmz-x1suM1B-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="AU1NNC18Ojmz-x1suM1B-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="AU1NNC18Ojmz-x1suM1B-5" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
-          <mxGeometry height="60" width="30" x="180" y="20" as="geometry" />
+          <mxGeometry height="60" width="30" x="190" y="20" as="geometry" />
         </mxCell>
         <mxCell id="AU1NNC18Ojmz-x1suM1B-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="DNS" vertex="1">
-          <mxGeometry height="40" width="90" x="360" y="40" as="geometry" />
+          <mxGeometry height="40" width="90" x="360" y="30" as="geometry" />
         </mxCell>
         <mxCell id="AU1NNC18Ojmz-x1suM1B-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CDN" vertex="1">
-          <mxGeometry height="40" width="90" x="360" y="120" as="geometry" />
+          <mxGeometry height="40" width="90" x="360" y="96" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-4" edge="1" parent="1" source="AU1NNC18Ojmz-x1suM1B-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="AU1NNC18Ojmz-x1suM1B-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="AU1NNC18Ojmz-x1suM1B-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="LB" vertex="1">
-          <mxGeometry height="40" width="90" x="150" y="160" as="geometry" />
+          <mxGeometry height="40" width="90" x="160" y="160" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-5" edge="1" parent="1" source="AU1NNC18Ojmz-x1suM1B-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kW378scqaF27wL95GdWb-2">
           <mxGeometry relative="1" as="geometry" />
@@ -133,7 +142,7 @@
           <mxGeometry height="40" width="105" x="410" y="490" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-36" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="reservedBookings" vertex="1">
-          <mxGeometry height="80" width="60" x="525" y="580" as="geometry" />
+          <mxGeometry height="60" width="115" x="405" y="591" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-44" edge="1" parent="1" source="kW378scqaF27wL95GdWb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kW378scqaF27wL95GdWb-42">
           <mxGeometry relative="1" as="geometry" />
@@ -228,7 +237,7 @@
           <mxGeometry height="40" width="120" x="145" y="551" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-67" parent="1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" value="BookingConfirmedEvent" vertex="1">
-          <mxGeometry height="50" width="130" x="-370" y="600" as="geometry" />
+          <mxGeometry height="50" width="200" x="-440" y="600" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-71" edge="1" parent="1" source="kW378scqaF27wL95GdWb-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.611;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="kW378scqaF27wL95GdWb-55">
           <mxGeometry relative="1" as="geometry" />
@@ -288,9 +297,9 @@
           <mxGeometry height="40" width="130" x="-59" y="760" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-98" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="RuleEngine" vertex="1">
-          <mxGeometry height="40" width="90" x="-130" y="190" as="geometry" />
+          <mxGeometry height="40" width="90" x="-149" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="kW378scqaF27wL95GdWb-99" edge="1" parent="1" source="kW378scqaF27wL95GdWb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="kW378scqaF27wL95GdWb-98">
+        <mxCell id="kW378scqaF27wL95GdWb-99" edge="1" parent="1" source="kW378scqaF27wL95GdWb-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kW378scqaF27wL95GdWb-98">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-105" edge="1" parent="1" source="kW378scqaF27wL95GdWb-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kW378scqaF27wL95GdWb-103">
@@ -299,13 +308,8 @@
         <mxCell id="kW378scqaF27wL95GdWb-100" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="PSP" vertex="1">
           <mxGeometry height="40" width="120" x="290" y="770" as="geometry" />
         </mxCell>
-        <mxCell id="kW378scqaF27wL95GdWb-104" edge="1" parent="1" source="kW378scqaF27wL95GdWb-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kW378scqaF27wL95GdWb-95">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="15" y="890" />
-            </Array>
-            <mxPoint x="50" y="860" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="qBINTelJXr9Wd9Juulnd-5" edge="1" parent="1" source="kW378scqaF27wL95GdWb-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="kW378scqaF27wL95GdWb-95">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kW378scqaF27wL95GdWb-103" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="QWEBHock" vertex="1">
           <mxGeometry height="40" width="120" x="290" y="870" as="geometry" />
