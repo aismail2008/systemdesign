@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="Page-1" id="yTSgLIf93G10eD3SdpJ7">
-    <mxGraphModel dx="2090" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2276" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,13 +52,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="LocationService" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="LocationService" vertex="1">
           <mxGeometry height="30" width="130" x="80" y="270" as="geometry" />
         </mxCell>
         <mxCell id="4QGCqFe7C726sxaVOe-O-49" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4QGCqFe7C726sxaVOe-O-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Cassandra for high load and partitioning" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-8" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Cassandra for high load and partitioning" vertex="1">
           <mxGeometry height="90" width="90" x="-100" y="240" as="geometry" />
         </mxCell>
         <mxCell id="4QGCqFe7C726sxaVOe-O-11" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
@@ -80,7 +80,7 @@
             <mxPoint x="-4" y="22" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Navigation Service" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Navigation Service" vertex="1">
           <mxGeometry height="30" width="130" x="320" y="270" as="geometry" />
         </mxCell>
         <mxCell id="ZiIxvff0obGkQlqoI0hm-8" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="4QGCqFe7C726sxaVOe-O-2">
@@ -90,13 +90,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-14" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Routing Tiles" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-14" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Routing Tiles" vertex="1">
           <mxGeometry height="70" width="55" x="740" y="542" as="geometry" />
         </mxCell>
         <mxCell id="4QGCqFe7C726sxaVOe-O-19" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="Maps address to GeoHash&lt;br&gt;&lt;b&gt;Redis&lt;/b&gt; is best option" vertex="1">
           <mxGeometry height="30" width="80" x="552" y="384.5" as="geometry" />
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-21" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Size&lt;/font&gt;&lt;br&gt;&lt;/b&gt;- One tile is &lt;b&gt;256x256 pixel&lt;/b&gt; and cover around &lt;b&gt;200mx200m.&lt;/b&gt;&lt;br&gt;- 1 tile is around compressed image of 100 KB&lt;br&gt;-&amp;nbsp;For 1k you need 25 images = 100GB * 25 = &lt;b&gt;2.5 MB/K&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;There are 21 zoom level. At deepest zoom level there are 4.4 trillion tiles.&lt;br&gt;&lt;br&gt;At level &lt;b&gt;21 &lt;/b&gt;= 4. trillion * 100 KB = &lt;b&gt;440 PB&lt;/b&gt;&lt;br&gt;&lt;b&gt;90% &lt;/b&gt;are not used (water, inhabitant) then actually data is 440/10 = 44 PB&amp;nbsp; ~=&lt;b&gt; 50 PB for level 21&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each level reduce 4x (north, south, east, west) then to store all levels tiles as precalculated&amp;nbsp;&lt;br&gt;50 PB + 50/4 + 50/16 + ... = 67 PB ~= &lt;b&gt;100 PB to store all world tiles at all levels&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;&quot; color=&quot;#ff2d0d&quot;&gt;&lt;b&gt;QPS: 1 million QPS&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-21" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Size&lt;/font&gt;&lt;br&gt;&lt;/b&gt;- One tile is &lt;b&gt;256x256 pixel&lt;/b&gt; and cover around &lt;b&gt;200mx200m.&lt;/b&gt;&lt;br&gt;- 1 tile is around compressed image of 100 KB&lt;br&gt;-&amp;nbsp;For 1KM you need 25 images = 100GB * 25 = &lt;b&gt;2.5 MB/K&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;There are 21 zoom level. At deepest zoom level there are 4.4 trillion tiles.&lt;br&gt;&lt;br&gt;At level &lt;b&gt;21 &lt;/b&gt;= 4. trillion * 100 KB = &lt;b&gt;440 PB&lt;/b&gt;&lt;br&gt;&lt;b&gt;90% &lt;/b&gt;are not used (water, inhabitant) then actually data is 440/10 = 44 PB&amp;nbsp; ~=&lt;b&gt; 50 PB for level 21&lt;/b&gt;&lt;br&gt;&lt;br&gt;Each level reduce 4x (north, south, east, west) then to store all levels tiles as precalculated&amp;nbsp;&lt;br&gt;50 PB + 50/4 + 50/16 + ... = 67 PB ~= &lt;b&gt;100 PB to store all world tiles at all levels&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#ff2d0d&quot;&gt;&lt;b&gt;QPS: 1 million QPS&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="280" width="260" x="1142" y="420" as="geometry" />
         </mxCell>
         <mxCell id="4QGCqFe7C726sxaVOe-O-23" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;div&gt;Convert address to Geohas and URLs for list of tiles to download from CDN&lt;/div&gt;" vertex="1">
@@ -115,7 +115,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TilesURLsService" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="TilesURLsService" vertex="1">
           <mxGeometry height="30" width="100" x="540" y="190" as="geometry" />
         </mxCell>
         <mxCell id="4QGCqFe7C726sxaVOe-O-29" parent="1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" value="&lt;b&gt;Tiles&lt;/b&gt; are roads and associated metadata like names, country, lang, latt. &lt;u&gt;# of drivers,&lt;/u&gt; ..etc&lt;br&gt;&lt;br&gt;Most probably it&#39;s&lt;font color=&quot;#ff4b1f&quot;&gt;&lt;b&gt; Object Store DB(S3). &lt;/b&gt;&lt;/font&gt;&lt;br&gt;There are many tiles, and it&#39;s expensive to store in a database.&lt;br&gt;&lt;br&gt;We can use &lt;b&gt;Geohashing as organizing&lt;/b&gt; tiles in S3 for fast lookup" vertex="1">
@@ -207,7 +207,7 @@
         <mxCell id="4QGCqFe7C726sxaVOe-O-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Analytics" vertex="1">
           <mxGeometry height="40" width="90" x="-140" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-56" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Traffic DB" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-56" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Traffic DB" vertex="1">
           <mxGeometry height="65" width="50" x="-120" y="635" as="geometry" />
         </mxCell>
         <mxCell id="4QGCqFe7C726sxaVOe-O-57" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Personalization DB" vertex="1">
@@ -219,10 +219,10 @@
         <mxCell id="4QGCqFe7C726sxaVOe-O-60" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="4QGCqFe7C726sxaVOe-O-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-66" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-66" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="" vertex="1">
           <mxGeometry height="60" width="40" x="680" y="175" as="geometry" />
         </mxCell>
-        <mxCell id="4QGCqFe7C726sxaVOe-O-74" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Geocoding DB" vertex="1">
+        <mxCell id="4QGCqFe7C726sxaVOe-O-74" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Geocoding DB" vertex="1">
           <mxGeometry height="70" width="60" x="660" y="317.5" as="geometry" />
         </mxCell>
         <mxCell id="ZiIxvff0obGkQlqoI0hm-13" edge="1" parent="1" source="4QGCqFe7C726sxaVOe-O-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="4QGCqFe7C726sxaVOe-O-74" value="">
