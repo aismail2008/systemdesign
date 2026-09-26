@@ -1,0 +1,628 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>System Design Prep Hub</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="layout">
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <h1>System Design Hub</h1>
+      <button class="theme-toggle" id="theme-toggle" title="Toggle theme">🌓</button>
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle">☰ Menu</button>
+
+    <div class="progress-wrap">
+      <div class="progress-label">
+        <span>Checklist progress</span>
+        <span id="progress-count">0 / 0</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progress-fill"></div></div>
+    </div>
+
+    <input type="search" id="nav-search" class="search-box" placeholder="Filter topics…" />
+
+    <nav class="toc">
+      <div class="group-title">Get started</div>
+      <a href="#overview">Overview</a>
+      <a href="#roadmap">Prep roadmap &amp; checklist</a>
+
+      <div class="group-title">Quick reference</div>
+      <a href="#cheatsheet">Numbers &amp; cheat sheet</a>
+
+      <div class="group-title">Engineering practices</div>
+      <a href="#testing">Types of testing</a>
+      <a href="#deployments">Deployment strategies</a>
+      <a href="#kafka">Kafka</a>
+
+      <div class="group-title">Core concepts</div>
+      <a class="sub" href="#cap-theorem">CAP theorem</a>
+      <a class="sub" href="#redis-memcache">Redis vs Memcached</a>
+      <a class="sub" href="#api-gateway">API Gateway vs LB</a>
+      <a class="sub" href="#xmpp-websocket">XMPP vs WebSocket</a>
+      <a class="sub" href="#data-warehouse">Data warehouse &amp; big data</a>
+      <a class="sub" href="#json-protobuf">JSON vs Protobuf</a>
+      <a class="sub" href="#cdn">CDN</a>
+      <a class="sub" href="#bloom-filter">Bloom filter</a>
+      <a class="sub" href="#http-keepalive">HTTP persistent connections</a>
+      <a class="sub" href="#zookeeper">Zookeeper</a>
+      <a class="sub" href="#elasticsearch">Elasticsearch</a>
+      <a class="sub" href="#proxy">Proxy vs reverse proxy</a>
+      <a class="sub" href="#sql-nosql">SQL vs NoSQL</a>
+      <a class="sub" href="#consistent-hashing">Consistent hashing</a>
+
+      <div class="group-title">Reliability</div>
+      <a href="#reliability">Reliability playbook</a>
+
+      <div class="group-title">More</div>
+      <a href="#appendix">Appendix &amp; resources</a>
+    </nav>
+  </aside>
+
+  <main>
+    <header class="hero" id="overview">
+      <h1>System Design Prep Hub</h1>
+      <p>
+        A living reference for system design interview prep — built from my own notes.
+        Use the sidebar to jump to a topic, tick off the roadmap as you actually re-cover it,
+        and treat the cheat sheet as the numbers to have memorized cold before any interview.
+      </p>
+    </header>
+
+    <!-- ========================= ROADMAP ========================= -->
+    <section class="block" id="roadmap">
+      <h2>Prep roadmap &amp; checklist</h2>
+      <p class="subtitle">Progress is saved in this browser only (localStorage) — nothing is sent anywhere.</p>
+
+      <div class="checklist-group">
+        <div class="group-head"><h4>1. Foundations — read / watch first</h4><span class="count"></span></div>
+        <label class="check"><input type="checkbox" data-persist-id="found-1"><span><a href="https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-design-topics-start-here" target="_blank" rel="noopener">system-design-primer — start here</a> (via Pramp.com), or the more structured <a href="https://github.com/karanpratapsingh/system-design" target="_blank" rel="noopener">karanpratapsingh/system-design</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="found-2"><span><a href="https://blog.bytebytego.com" target="_blank" rel="noopener">blog.bytebytego.com</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="found-3"><span><a href="https://bytebytego.com/courses/genai-system-design-interview/introduction-and-overview" target="_blank" rel="noopener">ByteByteGo — GenAI System Design Interview course</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="found-4"><span>Local drive concepts doc — plan: 30 days × 10 items/day to finish it all</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="found-5"><span>Then work through the rest of this hub</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="found-6"><span><a href="https://github.com/donnemartin/system-design-primer?tab=readme-ov-file#system-design-interview-questions-with-solutions" target="_blank" rel="noopener">Pramp — interview questions with solutions</a></span></label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="group-head"><h4>2. Practice problems — Book V1</h4><span class="count"></span></div>
+        <label class="check"><input type="checkbox" data-persist-id="v1-pastebin"><span><a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FPastebin.drawio#%7B%22pageId%22%3A%22xOBLhyYj3MYxFQuUd8QE%22%7D" target="_blank" rel="noopener">Pastebin</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-millions"><span><a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FMillionsOnAWS.drawio#%7B%22pageId%22%3A%22xOBLhyYj3MYxFQuUd8QE%22%7D" target="_blank" rel="noopener">Millions on AWS</a> (scale-out design exercise)</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-mint"><span><a href="http://mint.com" target="_blank" rel="noopener">Mint.com</a> (personal finance aggregator)</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-4"><span>4. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.4%20RateLimiter.drawio#%7B%22pageId%22%3A%22ZwT2R5hWVBBXrOdfv-2i%22%7D" target="_blank" rel="noopener">Rate Limiter</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-6"><span>6. Key-Value Store</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-7"><span>7. Unique ID Generation</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-8"><span>8. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.8%20URLShortner.drawio#%7B%22pageId%22%3A%22y2FAcHWOnN0RvBgoWqoK%22%7D" target="_blank" rel="noopener">URL Shortener</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-9"><span>9. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.9%20WebCrawler.drawio#%7B%22pageId%22%3A%22y2FAcHWOnN0RvBgoWqoK%22%7D" target="_blank" rel="noopener">Web Crawler</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-10"><span>10. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.10%20Notification%20System.drawio#%7B%22pageId%22%3A%22NLXaHPt7EvbyLJeMmwPG%22%7D" target="_blank" rel="noopener">Notification Service</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-11"><span>11. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.11%20NewsFeed(twitter-FB).drawio#%7B%22pageId%22%3A%22DBjOZg03fH8h-V7uCJ7k%22%7D" target="_blank" rel="noopener">News Feed (Twitter / Facebook)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-12"><span>12. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.12%20-%20V2.2%20ChatSystem.drawio#%7B%22pageId%22%3A%22_omLd40gxrhuzkDiTgc6%22%7D" target="_blank" rel="noopener">Chat System</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-13"><span>13. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.13%20AutoComplete.drawio#%7B%22pageId%22%3A%22y2FAcHWOnN0RvBgoWqoK%22%7D" target="_blank" rel="noopener">Autocomplete</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-14"><span>14. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV1.14%20Youtube.drawio#%7B%22pageId%22%3A%22cDZPhbR0HMyz_kIQ4zZw%22%7D" target="_blank" rel="noopener">YouTube</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v1-15"><span>15. Google Drive</span></label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="group-head"><h4>3. Practice problems — Book V2</h4><span class="count"></span></div>
+        <label class="check"><input type="checkbox" data-persist-id="v2-2"><span>2. (same shape as V1.12 — Chat System)</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-3"><span>3. Google Maps</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-5"><span>5. Monitoring / Alerting System</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-6"><span>6. Ad Click Aggregator</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-7"><span>7. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV2.7%20AirlineTicketing.drawio#%7B%22pageId%22%3A%22qewocp9qWGF084Xped2Q%22%7D" target="_blank" rel="noopener">Airline Ticketing / Hotel Reservation</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-10"><span>10. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV2.10%20Leaderboard-Realtime.drawio#%7B%22pageId%22%3A%22ESyHNGGu9YDHaL4IHJLn%22%7D" target="_blank" rel="noopener">Leaderboard (real-time)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-11"><span>11. <a href="https://app.diagrams.net/?src=about#Haismail2008%2Fsystemdesign%2Fmain%2FV2.11%20PaymentSys.drawio#%7B%22pageId%22%3A%227iVwl-0eNepe-L-17LZz%22%7D" target="_blank" rel="noopener">Payment System</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-12"><span>12. Wallet</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="v2-13"><span>13. Stock Exchange</span></label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="group-head"><h4>4. Real interview problems (previous companies)</h4><span class="count"></span></div>
+        <label class="check"><input type="checkbox" data-persist-id="co-atlassian"><span><strong>Atlassian</strong> — Tagging System</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="co-uber"><span><strong>Uber</strong> — Uber Ride</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="co-adyen"><span><strong>Adyen</strong> — Single Payment Provider</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="co-doctolib"><span><strong>Doctolib</strong> — Practitioner System Design interview</span></label>
+      </div>
+
+      <div class="checklist-group">
+        <div class="group-head"><h4>5. "How X Works" — <a href="https://www.linkedin.com/posts/nk-systemdesign-one_if-you-want-to-become-good-at-system-design-activity-7433136589586796544-NsvP" target="_blank" rel="noopener">LinkedIn post</a></h4><span class="count"></span></div>
+        <label class="check"><input type="checkbox" data-persist-id="how-1"><span>1. <a href="https://lnkd.in/emyP63Wx" target="_blank" rel="noopener">How ChatGPT Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-2"><span>2. <a href="https://lnkd.in/exsvNqFn" target="_blank" rel="noopener">How Google Search Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-3"><span>3. <a href="https://lnkd.in/eVKV2ePC" target="_blank" rel="noopener">How Uber Computes ETA</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-4"><span>4. <a href="https://lnkd.in/e2p7qXri" target="_blank" rel="noopener">How Amazon S3 Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-5"><span>5. <a href="https://lnkd.in/e7q9F4Sg" target="_blank" rel="noopener">How YouTube Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-6"><span>6. <a href="https://lnkd.in/eTtVAjTg" target="_blank" rel="noopener">How Kafka Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-7"><span>7. <a href="https://lnkd.in/eU2fswMi" target="_blank" rel="noopener">How WhatsApp Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-8"><span>8. <a href="https://lnkd.in/eGbWVeNW" target="_blank" rel="noopener">How Spotify Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-9"><span>9. <a href="https://lnkd.in/eATMDjrK" target="_blank" rel="noopener">How Slack Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-10"><span>10. <a href="https://lnkd.in/egmm_P7a" target="_blank" rel="noopener">How Reddit Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-11"><span>11. <a href="https://lnkd.in/eEhB8V_k" target="_blank" rel="noopener">How Bluesky Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-12"><span>12. <a href="https://lnkd.in/eniXMPfU" target="_blank" rel="noopener">How Twitter Timeline Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-13"><span>13. <a href="https://lnkd.in/evFTZVQq" target="_blank" rel="noopener">How URL Shortener Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-14"><span>14. <a href="https://lnkd.in/ecVw7jfi" target="_blank" rel="noopener">How Payment System Works</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="how-15"><span>15. <a href="https://lnkd.in/eNf2QxVZ" target="_blank" rel="noopener">How Stock Exchange Works</a></span></label>
+      </div>
+    </section>
+
+    <!-- ========================= CHEAT SHEET ========================= -->
+    <section class="block" id="cheatsheet">
+      <h2>Numbers &amp; cheat sheet</h2>
+      <p class="subtitle">The back-of-the-envelope numbers to have memorized before any estimation question.</p>
+
+      <h3 class="sub-heading">Geohash length → grid size</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>GeoHash length</th><th>Grid area (width × height)</th></tr></thead>
+          <tbody>
+            <tr><td>1</td><td>≤ 5,000 km × 5,000 km</td></tr>
+            <tr><td>2</td><td>≤ 1,250 km × 625 km</td></tr>
+            <tr><td>3</td><td>≤ 156 km × 156 km</td></tr>
+            <tr><td><strong>4</strong></td><td><strong>≤ 39.1 km × 19.5 km — most used in interviews</strong></td></tr>
+            <tr><td><strong>5</strong></td><td><strong>≤ 4.89 km × 4.89 km — most used in interviews</strong></td></tr>
+            <tr><td><strong>6</strong></td><td><strong>≤ 1.22 km × 0.61 km — most used in interviews</strong></td></tr>
+            <tr><td>7</td><td>≤ 153 m × 153 m</td></tr>
+            <tr><td>8</td><td>≤ 38.2 m × 19.1 m</td></tr>
+            <tr><td>9</td><td>≤ 4.77 m × 4.77 m</td></tr>
+            <tr><td>10</td><td>≤ 1.19 m × 0.596 m</td></tr>
+            <tr><td>11</td><td>≤ 149 mm × 149 mm</td></tr>
+            <tr><td>12</td><td>≤ 37.2 mm × 18.6 mm</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h3 class="sub-heading">Map tile / zoom-level math</h3>
+      <div class="card">
+        <ul>
+          <li>One tile = 256×256 px, covers roughly <strong>200m × 200m</strong>, ~100 KB compressed.</li>
+          <li>For 1 km² you need ~25 tiles → ~2.5 MB / km².</li>
+          <li>21 zoom levels total. Deepest zoom level (21) has <strong>4.4 trillion tiles</strong>.</li>
+          <li>Level 21 raw size: 4.4T × 100 KB ≈ 440 PB. ~90% of tiles are unused (ocean, uninhabited) → ~44 PB effective, rounded to <strong>~50 PB</strong>.</li>
+          <li>Each shallower level shrinks 4× → total for all pre-computed levels: 50 + 50/4 + 50/16 + … ≈ 67 PB, rounded to <strong>~100 PB to store the whole world at all zoom levels</strong>.</li>
+          <li>Typical target: <strong>~1 million QPS</strong>.</li>
+        </ul>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Zoom level</th><th># tiles</th></tr></thead>
+            <tbody>
+              <tr><td>0</td><td class="num">1</td></tr>
+              <tr><td>1</td><td class="num">4</td></tr>
+              <tr><td>2</td><td class="num">16</td></tr>
+              <tr><td>3</td><td class="num">64</td></tr>
+              <tr><td>4</td><td class="num">256</td></tr>
+              <tr><td>5</td><td class="num">1,024</td></tr>
+              <tr><td>6</td><td class="num">4,096</td></tr>
+              <tr><td>7</td><td class="num">16,384</td></tr>
+              <tr><td>8</td><td class="num">65,536</td></tr>
+              <tr><td>9</td><td class="num">262,144</td></tr>
+              <tr><td>10</td><td class="num">1,048,576</td></tr>
+              <tr><td>11</td><td class="num">4,194,304</td></tr>
+              <tr><td>12</td><td class="num">16,777,216</td></tr>
+              <tr><td>13</td><td class="num">67,108,864</td></tr>
+              <tr><td>14</td><td class="num">268,435,456</td></tr>
+              <tr><td>15</td><td class="num">1,073,741,824</td></tr>
+              <tr><td>16</td><td class="num">4,294,967,296</td></tr>
+              <tr><td>17</td><td class="num">17,179,869,184</td></tr>
+              <tr><td>18</td><td class="num">68,719,476,736</td></tr>
+              <tr><td>19</td><td class="num">274,877,906,944</td></tr>
+              <tr><td>20</td><td class="num">1,099,511,627,776</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <h3 class="sub-heading">Latency, availability &amp; sizing</h3>
+      <div class="stat-grid">
+        <div class="stat-card">
+          <h5>Reading latency (1 MB)</h5>
+          <div class="row"><span class="k">Memory</span><span class="v">~150 μs</span></div>
+          <div class="row"><span class="k">SSD</span><span class="v">~150 × 4 μs</span></div>
+          <div class="row"><span class="k">Hard disk</span><span class="v">~150 × 80 μs</span></div>
+          <div class="row"><span class="k">Round-trip, same DC</span><span class="v">~500 μs</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Time units</h5>
+          <div class="row"><span class="k">Nano</span><span class="v">10⁻⁹ s</span></div>
+          <div class="row"><span class="k">Micro</span><span class="v">10⁻⁶ s</span></div>
+          <div class="row"><span class="k">Milli</span><span class="v">10⁻³ s</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Availability → downtime</h5>
+          <div class="row"><span class="k">99%</span><span class="v">14.40 min/day · 3.65 d/yr</span></div>
+          <div class="row"><span class="k">99.9%</span><span class="v">1.44 min/day · 8.77 h/yr</span></div>
+          <div class="row"><span class="k">99.99%</span><span class="v">8.64 s/day · 52.6 min/yr</span></div>
+          <div class="row"><span class="k">99.999%</span><span class="v">864 ms/day · 5.26 min/yr</span></div>
+          <div class="row"><span class="k">99.9999%</span><span class="v">86.4 ms/day · 31.56 s/yr</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Throughput rules of thumb</h5>
+          <div class="row"><span class="k">1 DB node</span><span class="v">~10³ transactions/sec</span></div>
+          <div class="row"><span class="k">Modern server RAM</span><span class="v">~100 GB</span></div>
+          <div class="row"><span class="k">1 req/s</span><span class="v">≈ 2.5M/month</span></div>
+          <div class="row"><span class="k">40 req/s</span><span class="v">≈ 100M/month</span></div>
+          <div class="row"><span class="k">400 req/s</span><span class="v">≈ 1B/month</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Byte scale</h5>
+          <div class="row"><span class="k">10³ bytes</span><span class="v">1 KB</span></div>
+          <div class="row"><span class="k">10⁶ bytes</span><span class="v">1 MB</span></div>
+          <div class="row"><span class="k">10⁹ bytes</span><span class="v">1 GB</span></div>
+          <div class="row"><span class="k">10¹² bytes</span><span class="v">1 TB</span></div>
+          <div class="row"><span class="k">10¹⁵ bytes</span><span class="v">1 PB</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Character encoding</h5>
+          <div class="row"><span class="k">ASCII (English)</span><span class="v">1 byte</span></div>
+          <div class="row"><span class="k">Arabic / Greek / Cyrillic</span><span class="v">~2 bytes</span></div>
+          <div class="row"><span class="k">Chinese / Japanese / Emoji</span><span class="v">3–4 bytes</span></div>
+          <div class="row"><span class="k">UTF-8</span><span class="v">variable, 1–4 bytes</span></div>
+          <div class="row"><span class="k">UTF-16</span><span class="v">variable, 2 or 4 bytes</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Field size estimates</h5>
+          <div class="row"><span class="k">Short / Char</span><span class="v">2 bytes</span></div>
+          <div class="row"><span class="k">Int / Float / Date</span><span class="v">4 bytes</span></div>
+          <div class="row"><span class="k">Double / Long / Timestamp</span><span class="v">8 bytes</span></div>
+          <div class="row"><span class="k">ID</span><span class="v">8 bytes</span></div>
+          <div class="row"><span class="k">Longitude / Latitude</span><span class="v">8 bytes</span></div>
+        </div>
+        <div class="stat-card">
+          <h5>Object size estimates</h5>
+          <div class="row"><span class="k">Address / City / Name</span><span class="v">2 × #chars</span></div>
+          <div class="row"><span class="k">URL</span><span class="v">~500 B (4 KB browser max)</span></div>
+          <div class="row"><span class="k">Webpage</span><span class="v">~500 KB</span></div>
+          <div class="row"><span class="k">1 post / tweet</span><span class="v">~10 KB</span></div>
+          <div class="row"><span class="k">1 connection / WebSocket</span><span class="v">~10 KB</span></div>
+          <div class="row"><span class="k">1 search query</span><span class="v">~20 B</span></div>
+          <div class="row"><span class="k">Typical DB record</span><span class="v">~1 KB</span></div>
+        </div>
+      </div>
+      <p style="font-size:12.5px;color:var(--text-faint);">Rule: number of possible values for an n-bit ID = 2ⁿ → derive bytes needed from that.</p>
+    </section>
+
+    <!-- ========================= TESTING ========================= -->
+    <section class="block" id="testing">
+      <h2>Types of testing</h2>
+      <div class="card">
+        <ul>
+          <li><strong>Smoke testing</strong> — checks that the most important functions of an application/system work. Often a preliminary test before more exhaustive testing.</li>
+          <li><strong>Integration testing</strong> (part of <a href="https://harness.io/blog/what-is-continuous-integration/" target="_blank" rel="noopener">CI</a> / <a href="https://harness.io/blog/what-is-continuous-delivery/" target="_blank" rel="noopener">CD</a>) — checks that different components or systems work together correctly.</li>
+          <li><strong>Regression testing</strong> — checks that changes haven't introduced new bugs; re-runs previously passing tests.</li>
+          <li><strong>Unit testing</strong> — checks that individual units of code (functions/methods) work correctly, usually via automated test frameworks.</li>
+          <li><strong>A/B testing</strong> — different versions of the same service run simultaneously as experiments in the same environment, controlled via feature flags, dedicated A/B tools, or distinct deployments.</li>
+        </ul>
+        <img class="figure" src="images/cicd-lifecycle.png" alt="CI/CD lifecycle: plan, code, build, test, release, deploy, operate, monitor with associated tools" />
+        <figcaption>The full CI/CD loop and the tools typically used at each stage.</figcaption>
+      </div>
+    </section>
+
+    <!-- ========================= DEPLOYMENTS ========================= -->
+    <section class="block" id="deployments">
+      <h2>Deployment strategies</h2>
+      <p class="subtitle"><a href="https://www.youtube.com/watch?v=AWVTKBUnoIg&ab_channel=ByteByteGo" target="_blank" rel="noopener">Video reference — ByteByteGo</a></p>
+      <div class="card">
+        <img class="figure" src="images/deployment-strategies.jpg" alt="Diagrams of Big Bang, Rolling, Blue-Green, Canary, and Feature Toggle deployments" />
+        <ul>
+          <li><strong>Big Bang</strong> — deploy changes to the entire system at once. Rollback needed if issues arise; can cause downtime. Common for critical updates like database upgrades.</li>
+          <li><strong>Rolling</strong> — updates are applied incrementally: servers are taken down one at a time, updated, tested, and put back online before moving to the next. Rollback if issues occur.</li>
+          <li><strong>Canary</strong> — a new version first goes to a small subset of servers (~10%), closely monitored, then expands to 30%, 70%, and eventually 100%. Minimizes blast radius; often combined with rolling deployment.</li>
+          <li><strong>Blue-Green</strong> — two identical production environments ("blue" = active, "green" = idle). New version deploys to green and is tested while customers stay on blue; traffic switches once validated, and can revert instantly if issues arise.</li>
+          <li><strong>Feature Toggle</strong> — not a deployment strategy per se; controls specific features via on/off switches independent of deployment, and can be combined with any of the above.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================= KAFKA ========================= -->
+    <section class="block" id="kafka">
+      <h2>Kafka</h2>
+      <div class="card">
+        <img class="figure" src="images/kafka-101.gif" alt="Kafka 101 infographic: what is Kafka, messages, topics and partitions, advantages, producer, consumer, cluster, use cases" />
+
+        <h4>Multiple consumer groups</h4>
+        <p>If topic <code>T1</code> has message <code>M1</code>, and there are two consumer groups <code>CG1</code> and <code>CG2</code>, both groups <strong>independently</strong> receive and process <code>M1</code>. The message stays in the topic until removed per the retention policy, regardless of either group's processing status.</p>
+
+        <h4>Single consumer per partition within a group</h4>
+        <p>Within one consumer group, only one consumer processes a message from a given partition at a time — so each message is handled exactly once within that group. Other consumers in the group work on different partitions.</p>
+
+        <h4>How Kafka avoids duplicate processing</h4>
+        <p>Topic → partitions → partitions replicated across brokers → brokers grouped into clusters.</p>
+        <ul>
+          <li><strong>Partitioning</strong> — topics (e.g. <code>user-login</code>, ordered log events) are split into partitions distributed (with replicas) across brokers. Each partition is an ordered, immutable sequence with sequential offsets starting at 0.</li>
+          <li><strong>Consumer groups</strong> — consumers in the same group share responsibility for a topic's partitions; Kafka ensures each message in a partition goes to only one consumer within that group.</li>
+          <li><strong>Offset management</strong> — Kafka tracks, per consumer per partition, the offset of the last successfully processed message. Consumers periodically commit offsets as they process.</li>
+          <li><strong>Fault tolerance &amp; rebalancing</strong> — consumers can join/leave dynamically; on restart or failover a consumer resumes from its last committed offset. Kafka rebalances partitions across the group automatically, ensuring exactly-once processing per group even through failures or scaling events.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================= CONCEPTS ========================= -->
+    <section class="block" id="concepts">
+      <h2>Core concepts &amp; definitions</h2>
+
+      <h3 class="sub-heading" id="cap-theorem">CAP theorem <span class="tag"><a href="https://github.com/donnemartin/system-design-primer#cap-theorem" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <ul>
+          <li><strong>Consistency</strong> — every read receives the most recent write, or an error.</li>
+          <li><strong>Availability</strong> — every request receives a response, with no guarantee it's the most recent version.</li>
+          <li><strong>Partition tolerance</strong> — the system keeps operating despite arbitrary network partitioning.</li>
+        </ul>
+        <img class="figure" src="images/cap-theorem.png" alt="CAP theorem venn diagram with example databases for CA, CP, and AP" />
+      </div>
+
+      <h3 class="sub-heading" id="redis-memcache">Redis vs Memcached <span class="tag"><a href="https://www.imaginarycloud.com/blog/redis-vs-memcached/" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <p>Both are server-side caching solutions. Redis is an in-memory (mostly non-volatile) data store; Memcached is a purely volatile in-memory cache limited to LRU eviction.</p>
+        <ul>
+          <li><strong>Redis</strong> — non-volatile, supports lists/sets/TTL collections/different eviction policies; replicates data across regions; easy to scale horizontally; multi-region support.</li>
+          <li><strong>Memcached</strong> — fully volatile in memory; scales via vertical/parallel processing.</li>
+        </ul>
+      </div>
+
+      <h3 class="sub-heading" id="api-gateway">API Gateway vs Load Balancer <span class="tag"><a href="https://dashbird.io/blog/can-api-gateway-act-load-balancer/" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <p>In short: <strong>API Gateway ≈ Load Balancer + web server</strong>. Instead of just distributing requests evenly across backend servers like an LB, an API Gateway routes requests to specific resources based on the requested endpoint, and additionally handles authentication, rate limiting, service registry/discovery, and load balancing. It plays a central role in microservices architectures, mapping HTTP endpoints to backend services and routing each request on demand.</p>
+      </div>
+
+      <h3 class="sub-heading" id="xmpp-websocket">XMPP vs WebSocket</h3>
+      <div class="card">
+        <ul>
+          <li><strong>XMPP</strong> — slower but more secure; can bridge to Jabber via gateways; decentralized, client-server model where clients never talk directly to each other.</li>
+          <li><strong>WebSocket</strong> — faster; weaker security (SSL, but attack-prone); unlimited open sessions per user per app; centralized architecture — establishes a socket connection directly between server and browser.</li>
+        </ul>
+      </div>
+
+      <h3 class="sub-heading" id="data-warehouse">Data warehouse, Spark, Hadoop &amp; friends</h3>
+      <div class="card">
+        <p class="subtitle" style="margin:0 0 12px;">
+          <a href="https://panoply.io/data-warehouse-guide/the-difference-between-a-database-and-a-data-warehouse/" target="_blank" rel="noopener">Data warehouse vs database</a> ·
+          <a href="https://www.youtube.com/watch?v=2PVzOHA3ktE&ab_channel=Simplilearn" target="_blank" rel="noopener">Hadoop vs Spark</a> ·
+          <a href="https://www.youtube.com/watch?v=kGT4PcTEPP8&ab_channel=ByteByteGo" target="_blank" rel="noopener">ByteByteGo video</a>
+        </p>
+
+        <h4>Decision tree — if X, use Y</h4>
+        <ul>
+          <li>Need real-time processing (ms–seconds)? → <strong>Apache Flink</strong></li>
+          <li>Batch / offline processing, heavy transforms, ETL, ML? → <strong>Apache Spark</strong></li>
+          <li>SQL analytics, dashboards, BI? → <strong>Amazon Redshift</strong></li>
+          <li>Large-scale raw / historical storage? → <strong>Hadoop (HDFS) or S3</strong></li>
+        </ul>
+        <p><strong>Rule of thumb:</strong> Streaming → Flink · Batch compute → Spark · Analytics SQL → Redshift · Storage → Hadoop/S3</p>
+
+        <h4>Typical modern pipeline</h4>
+        <div class="flow">Events / Logs
+  ↓
+Kafka
+  ↓
+Flink (real-time processing)
+  ↓
+S3 (data lake)
+  ↓
+Spark (ETL / batch)
+  ↓
+Redshift (analytics &amp; BI)</div>
+
+        <img class="figure" src="images/data-pipeline.png" alt="The Amazing Data Pipeline: collect, ingest, store, compute stages with data lake, warehouse, lakehouse, batch/stream processing, and downstream data science/BI/analytics/ML" />
+        <img class="figure" src="images/data-pipeline-sketch.png" alt="Hand-drawn version of the data pipeline diagram" />
+
+        <ul>
+          <li><strong>Amazon Redshift</strong> is <a href="https://www.youtube.com/watch?v=BQpCGyUzTHo&ab_channel=Intellipaat" target="_blank" rel="noopener">OLAP</a> — analyzes large historical datasets in batch, <strong>not</strong> real-time.</li>
+          <li><strong>Spark</strong> operates close to real-time: has a core library, ML, YARN, and Spark SQL modules; uses Resilient Distributed Datasets and processes data in memory. Yahoo and Alibaba have run it on 10,000+ node clusters processing hundreds of terabytes in batch. It streams events at millions/sec with low latency, managed via a Cluster Manager using a DAG (directed acyclic graph). Also used for ETL.</li>
+        </ul>
+
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Criteria</th><th>Apache Spark</th><th>Hadoop</th><th>Amazon Redshift</th></tr></thead>
+            <tbody>
+              <tr><td>Processing type</td><td>In-memory, real-time &amp; batch</td><td>Batch (disk-based)</td><td>Analytical queries (OLAP), ETL</td></tr>
+              <tr><td>Use case</td><td>Real-time analytics, ML</td><td>Large-scale batch processing</td><td>Data warehousing, BI</td></tr>
+              <tr><td>Scalability</td><td>Horizontally scalable</td><td>Horizontally scalable</td><td>Highly scalable (cloud)</td></tr>
+              <tr><td>Data storage</td><td>Distributed — HDFS or others</td><td>HDFS</td><td>Columnar, cloud (AWS S3)</td></tr>
+              <tr><td>Performance</td><td>Fast — in-memory</td><td>Slower — disk-based</td><td>Optimized for complex queries</td></tr>
+              <tr><td>Integration</td><td>Multiple data sources</td><td>Primarily HDFS-based</td><td>Deep AWS integration</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>Conclusion:</strong> Spark for real-time analytics/ML/iterative processing · Hadoop for cost-effective large-scale disk-based batch · Redshift for OLAP and cloud-native warehousing.</p>
+      </div>
+
+      <h3 class="sub-heading" id="json-protobuf">JSON vs Protobuf</h3>
+      <div class="card">
+        <ul>
+          <li><strong>JSON</strong> — expensive serialization; human-readable; extensible, not tied to a schema, self-contained; types can be unclear (e.g. can't natively express an unsigned 32-bit int).</li>
+          <li><strong>Protobuf</strong> — fixed, defined schema; fast serialization/deserialization; good for high volume. Message definitions live in <code>.proto</code> files and generate clients for many languages.</li>
+        </ul>
+      </div>
+
+      <h3 class="sub-heading" id="cdn">CDN <span class="tag"><a href="https://en.wikipedia.org/wiki/Content_delivery_network" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <p>A globally distributed network of proxy servers across multiple data centers, used to serve content with high availability and performance. It's typically a third-party network; many companies store static assets on a CDN. Content is replicated in many places so it's more likely to be close to the user (fewer hops, friendlier network path). CDNs also absorb scalability concerns — you just pay for the service.</p>
+      </div>
+
+      <h3 class="sub-heading" id="bloom-filter">Bloom filter <span class="tag"><a href="https://en.wikipedia.org/wiki/Bloom_filter" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <p>A space-efficient structure for testing set membership, with possible false positives: it can tell you an element is <strong>definitely not</strong> in the set, or <strong>probably is</strong>. Implementation: an empty filter is an m-bit array (all 0), with k hash functions mapping each element to one of the m bits. Adding an element sets its k bits to 1. Checking membership: if any of the k bits is 0, the element definitely doesn't exist; if all are 1, it's a probable match (could be a collision from other elements). Classic use case: deduplicating URLs in a web crawler.</p>
+      </div>
+
+      <h3 class="sub-heading" id="http-keepalive">HTTP persistent connections</h3>
+      <div class="card">
+        <p>Also called HTTP keep-alive / connection reuse: a single TCP connection sends and receives multiple HTTP request/response pairs instead of opening a new connection per request. HTTP/2 extends this idea further, multiplexing multiple concurrent requests/responses over one connection.</p>
+      </div>
+
+      <h3 class="sub-heading" id="zookeeper">Zookeeper <span class="tag"><a href="https://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <p>A reliable distributed system manager — a distributed coordination service. Handles distributed configuration/cluster management (nodes joining/leaving) and distributed, synchronized locks.</p>
+      </div>
+
+      <h3 class="sub-heading" id="elasticsearch">Elasticsearch (reverse index service)</h3>
+      <div class="card">
+        <p>A search engine built on Apache Lucene. Provides a distributed, multitenant-capable full-text search engine with an HTTP web interface and schema-free JSON documents.</p>
+      </div>
+
+      <h3 class="sub-heading" id="proxy">Proxy vs reverse proxy <span class="tag"><a href="https://www.youtube.com/watch?v=ozhe__GdWC8" target="_blank" rel="noopener" style="color:inherit;">video</a></span></h3>
+      <div class="card">
+        <img class="figure" src="images/proxy-vs-reverse-proxy.png" alt="Forward proxy vs reverse proxy diagram" />
+        <ul>
+          <li><strong>Forward proxy</strong> — the server doesn't know who the client is (e.g. mobile device routed through a proxy). Hides client identity. Used for anonymity, caching, blocking unwanted sites, geo-fencing.</li>
+          <li><strong>Reverse proxy</strong> — the client doesn't know who the server is. Used for load balancing, caching, isolating internal traffic, logging.</li>
+        </ul>
+      </div>
+
+      <h3 class="sub-heading" id="sql-nosql">SQL vs NoSQL <span class="tag"><a href="https://github.com/donnemartin/system-design-primer#sql-or-nosql" target="_blank" rel="noopener" style="color:inherit;">source</a></span></h3>
+      <div class="card">
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th></th><th>SQL</th><th>NoSQL</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>Reasons to choose</td>
+                <td>Structured data · strict schema · relational data · complex joins needed · transactions · clear scaling patterns · mature ecosystem (devs, community, tools) · fast index lookups</td>
+                <td>Semi-structured data · dynamic/flexible schema · non-relational · no complex joins needed · storing many TB/PB · very data-intensive workloads · very high IOPS throughput</td>
+              </tr>
+              <tr>
+                <td>Good fit cases</td>
+                <td>—</td>
+                <td>Rapid ingest of clickstream/log data · leaderboard or scoring data · temporary data (shopping cart) · frequently-accessed ("hot") tables · metadata/lookup tables</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <img class="figure" src="images/nosql-use-cases.gif" alt="Top 9 NoSQL database use cases: MongoDB, Cassandra, Redis, Couchbase, Neo4j, DynamoDB, HBase, Elasticsearch, CouchDB" />
+      </div>
+
+      <h3 class="sub-heading" id="consistent-hashing">Consistent hashing <span class="tag"><a href="https://www.youtube.com/watch?v=UF9Iqmg94tk&t=20s&ab_channel=ByteByteGo" target="_blank" rel="noopener" style="color:inherit;">8-min video</a></span></h3>
+      <div class="card">
+        <ul>
+          <li>Hash both server names/IPs and data keys with the <strong>same</strong> hash function.</li>
+          <li>To locate the server for key <code>K0</code> (conceptually <code>hash(K0) % num_servers</code>), walk clockwise on the hash ring to the next available server.</li>
+          <li>To get more even server mapping and better partitioning, add <strong>virtual nodes</strong> that map to real servers.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ========================= RELIABILITY ========================= -->
+    <section class="block" id="reliability">
+      <h2>Reliability playbook</h2>
+      <p class="subtitle">Nine angles to cover whenever an interview asks "how do you make this reliable?"</p>
+
+      <div class="card">
+        <h4>1. Redundancy &amp; replication</h4>
+        <ul>
+          <li><strong>Data replication</strong> — replicate across servers/data centers to avoid a single point of failure (e.g. master-slave or multi-master).</li>
+          <li><strong>Service redundancy</strong> — duplicate critical services (active-active or active-passive failover); e.g. multiple instances per microservice across availability zones.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4>2. Load balancing</h4>
+        <ul>
+          <li><strong>Distribute traffic</strong> — spread load across servers so no single node is overloaded and traffic reroutes if one fails.</li>
+          <li><strong>Health checks</strong> — load balancers should regularly check instance health and route around unhealthy ones.</li>
+        </ul>
+        <p style="margin:0;color:var(--text-faint);font-size:13px;">Example: AWS ELB or Nginx handling traffic distribution and failover.</p>
+      </div>
+
+      <div class="card">
+        <h4>3. Automated recovery</h4>
+        <ul>
+          <li><strong>Auto-scaling</strong> — spin up new instances automatically under load or after failures.</li>
+          <li><strong>Self-healing systems</strong> — automatically restart or replace failed instances (e.g. Kubernetes pod rescheduling / replication controllers).</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4>4. Data durability &amp; backup</h4>
+        <ul>
+          <li><strong>Durable storage</strong> — e.g. Amazon S3, RAID-configured disks, to protect against hardware failure.</li>
+          <li><strong>Regular backups</strong> — automated, geographically distributed, with a disaster-recovery restore strategy.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4>5. Consistency &amp; fault tolerance</h4>
+        <ul>
+          <li><strong>CAP theorem trade-offs</strong> — pick eventual vs strong consistency based on system requirements.</li>
+          <li><strong>Fault-tolerant design</strong> — consensus algorithms like Paxos or Raft to tolerate failures without losing data/availability.</li>
+        </ul>
+        <p style="margin:0;color:var(--text-faint);font-size:13px;">Example: Cassandra/DynamoDB favor eventual consistency for availability, backed by consensus protocols for reliable replication.</p>
+      </div>
+
+      <div class="card">
+        <h4>6. Monitoring &amp; alerting</h4>
+        <ul>
+          <li><strong>Monitoring systems</strong> — real-time visibility (Prometheus, Datadog) into latency, error rates, resource usage.</li>
+          <li><strong>Alerting</strong> — notify the right team fast (e.g. PagerDuty) to catch degradation early.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4>7. Graceful degradation</h4>
+        <ul>
+          <li><strong>Circuit breakers</strong> — trip and fail gracefully under strain to prevent cascading failures.</li>
+          <li><strong>Fallback strategies</strong> — serve cached data or read replicas when a dependency is down.</li>
+        </ul>
+        <p style="margin:0;color:var(--text-faint);font-size:13px;">Example: Netflix uses circuit breakers to limit blast radius from failing dependencies.</p>
+      </div>
+
+      <div class="card">
+        <h4>8. Testing for reliability</h4>
+        <ul>
+          <li><strong>Chaos engineering</strong> — inject controlled failures (e.g. Netflix's Chaos Monkey) to find weaknesses proactively.</li>
+          <li><strong>Failover testing</strong> — regularly rehearse failover to confirm the system behaves as expected when a component goes down.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h4>9. SLAs &amp; SLOs</h4>
+        <ul>
+          <li>Define Service Level Agreements/Objectives for uptime, availability, recovery time, and design to meet or beat them.</li>
+          <li>Track <strong>error budgets</strong> to stay within acceptable failure rates.</li>
+        </ul>
+        <p style="margin:0;color:var(--text-faint);font-size:13px;">Example: a 99.9% uptime SLA allows &lt; ~43 minutes of downtime per month.</p>
+      </div>
+    </section>
+
+    <!-- ========================= APPENDIX ========================= -->
+    <section class="block" id="appendix">
+      <h2>Appendix &amp; resources</h2>
+
+      <div class="card">
+        <h4>General prep &amp; tools</h4>
+        <ul>
+          <li><a href="https://docs.google.com/document/d/1ceruULt94sirhHiBwgFsQuVtG8SG0gdjQoMBOPzjMZk/edit?usp=sharing" target="_blank" rel="noopener">Technical coding &amp; system design preparation doc</a></li>
+          <li>Diagramming tools: <a href="https://app.lucidchart.com/" target="_blank" rel="noopener">Lucidchart</a> · <a href="https://awwapp.com/#" target="_blank" rel="noopener">AWW App</a> · <a href="https://excalidraw.com/" target="_blank" rel="noopener">Excalidraw</a> · <a href="https://github.com/plantuml-stdlib/C4-PlantUML" target="_blank" rel="noopener">C4-PlantUML</a></li>
+          <li><a href="https://github.com/aismail2008/algorithms" target="_blank" rel="noopener">Personal GitHub algorithms repo</a> — design patterns / data structures / Cracking the Coding Interview Ch.9</li>
+          <li>Cracking the Coding Interview — Chapter 9: System Design and Scalability</li>
+          <li><a href="https://www.youtube.com/playlist?list=PLCRMIe5FDPsd0gVs500xeOewfySTsmEjf" target="_blank" rel="noopener">YouTube playlist 1</a> · <a href="https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX" target="_blank" rel="noopener">YouTube playlist 2</a></li>
+          <li><a href="https://www.hellointerview.com/" target="_blank" rel="noopener">hellointerview.com</a></li>
+        </ul>
+      </div>
+
+      <div class="checklist-group">
+        <div class="group-head"><h4>Classic top-10 system design problems</h4><span class="count"></span></div>
+        <label class="check"><input type="checkbox" data-persist-id="top10-1"><span><a href="https://www.educative.io/courses/grokking-modern-system-design-interview-for-engineers-managers/system-design-tinyurl" target="_blank" rel="noopener">URL shortener / TinyURL</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-2"><span><a href="https://github.com/karanpratapsingh/system-design#uber" target="_blank" rel="noopener">Proximity service (like Uber)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-3"><span><a href="https://www.enjoyalgorithms.com/blog/web-crawler" target="_blank" rel="noopener">Web crawler</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-4"><span>Payment or payout service (<a href="https://newsletter.pragmaticengineer.com/p/designing-a-payment-system" target="_blank" rel="noopener">link 1</a>, <a href="https://www.youtube.com/watch?v=olfaBgJrUBI&ab_channel=High-PerformanceProgramming" target="_blank" rel="noopener">link 2</a>)</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-5"><span>Stock exchange system / broker (<a href="https://www.youtube.com/watch?v=dGYfpO3WJ1o&ab_channel=Jordanhasnolife" target="_blank" rel="noopener">video 1</a>, <a href="https://www.youtube.com/watch?v=dUMWMZmMsVE&ab_channel=TechDummiesNarendraL" target="_blank" rel="noopener">video 2</a>)</span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-6"><span><a href="https://github.com/karanpratapsingh/system-design#twitter" target="_blank" rel="noopener">Social media app (like Twitter)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-7"><span><a href="https://systemdesignprimer.com/dropbox-system-design/" target="_blank" rel="noopener">File sharing service (like Dropbox)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-8"><span><a href="https://github.com/karanpratapsingh/system-design#netflix" target="_blank" rel="noopener">Video streaming service (like Netflix)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-9"><span><a href="https://www.enjoyalgorithms.com/blog/design-typeahead-system" target="_blank" rel="noopener">Autocomplete (like Google)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-10"><span><a href="https://github.com/karanpratapsingh/system-design#whatsapp" target="_blank" rel="noopener">Messaging app (like WhatsApp)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-11"><span><a href="https://medium.com/@sureshpodeti/system-design-google-docs-93e12133a979" target="_blank" rel="noopener">Online document editor (like Google Docs)</a></span></label>
+        <label class="check"><input type="checkbox" data-persist-id="top10-12"><span><a href="https://www.nexsoftsys.com/articles/how-to-design-backend-system-of-an-online-hotel-booking-app-using-java.html" target="_blank" rel="noopener">Hotel booking service (like Airbnb)</a></span></label>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      Personal reference built from my own system design prep notes. Kept intentionally offline-friendly — no build step, no tracking.
+    </footer>
+  </main>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
