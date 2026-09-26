@@ -1,3 +1,5 @@
+Tech Preparation site : https://aismail2008.github.io/systemdesign/system-design-hub/
+
 Open with draw.io
 
 Option 1:
