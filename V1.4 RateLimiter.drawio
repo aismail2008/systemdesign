@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36">
   <diagram name="Page-1" id="ZwT2R5hWVBBXrOdfv-2i">
-    <mxGraphModel dx="2633" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1856" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -49,7 +49,7 @@
         <mxCell id="GJYwJjsboNPpY3mAElYJ-2" edge="1" parent="1" source="f2s4Gb-pWufgBm75DpBl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="GJYwJjsboNPpY3mAElYJ-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f2s4Gb-pWufgBm75DpBl-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="WebServer (RateLimiter)" vertex="1">
+        <mxCell id="f2s4Gb-pWufgBm75DpBl-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="WebServer (RateLimiter)&amp;nbsp;&lt;br&gt;: &lt;u&gt;Process logic and update DB&lt;/u&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="210" y="260" as="geometry" />
         </mxCell>
         <mxCell id="f2s4Gb-pWufgBm75DpBl-5" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Use cases&lt;/h1&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;p&gt;Use Cases - FNs&lt;br&gt;- Rate limiter per API and user IP&lt;br&gt;- User will get response with success or rate limited error with details&amp;nbsp;&lt;br&gt;&lt;br&gt;Non-FNs&lt;br&gt;- It should be very fast as it will be part of the &lt;b&gt;request response time [hence avoid DB and use memory DB like redis]&lt;/b&gt;&lt;br&gt;- Consistency if hit different rate limiter/&lt;br&gt;- avoid race condidtions&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;APIs:&lt;br&gt;Header: &lt;br&gt;&amp;nbsp; &amp;nbsp; X-ratelimiter-remaining&lt;br&gt;&amp;nbsp; &amp;nbsp; X-ratelimiter-limit&lt;br&gt;&amp;nbsp; &amp;nbsp;X-ratelimiter-retry-after&lt;br&gt;&lt;br&gt;Request 4xx:&lt;div&gt;key: API-URL&lt;br&gt;rate_limit:&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;unit: day/minute&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;request_per-Unit: 5&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
@@ -61,10 +61,7 @@
         <mxCell id="f2s4Gb-pWufgBm75DpBl-9" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="APIs" vertex="1">
           <mxGeometry height="40" width="70" x="620" y="280" as="geometry" />
         </mxCell>
-        <mxCell id="f2s4Gb-pWufgBm75DpBl-18" edge="1" parent="1" source="f2s4Gb-pWufgBm75DpBl-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="f2s4Gb-pWufgBm75DpBl-14">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="f2s4Gb-pWufgBm75DpBl-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cache Redis &lt;br&gt;Rules&amp;nbsp;" vertex="1">
+        <mxCell id="f2s4Gb-pWufgBm75DpBl-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Cache Redis &lt;br&gt;Rules" vertex="1">
           <mxGeometry height="60" width="120" x="440" y="160" as="geometry" />
         </mxCell>
         <mxCell id="f2s4Gb-pWufgBm75DpBl-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Reids tokenizer for example with&amp;nbsp;&lt;br&gt;- UserIP+ API = Token Count&lt;br&gt;- That token count is reset with time as supported by Redis&lt;br&gt;&lt;br&gt;&lt;b&gt;INCR&lt;/b&gt;: increase counter by 1&lt;br&gt;&lt;b&gt;EXPIRE&lt;/b&gt;: sets timeout for counter and auto-deleted" vertex="1">
@@ -73,7 +70,7 @@
         <mxCell id="f2s4Gb-pWufgBm75DpBl-16" edge="1" parent="1" source="f2s4Gb-pWufgBm75DpBl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="f2s4Gb-pWufgBm75DpBl-15" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f2s4Gb-pWufgBm75DpBl-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Rules" vertex="1">
+        <mxCell id="f2s4Gb-pWufgBm75DpBl-15" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Rules: stored in files/DB" vertex="1">
           <mxGeometry height="60" width="120" x="680" y="20" as="geometry" />
         </mxCell>
         <mxCell id="f2s4Gb-pWufgBm75DpBl-19" connectable="0" parent="1" style="group" value="" vertex="1">
@@ -231,6 +228,14 @@
         </mxCell>
         <mxCell id="GJYwJjsboNPpY3mAElYJ-1" parent="1" style="whiteSpace=wrap;html=1;rounded=1;" value="Redis" vertex="1">
           <mxGeometry height="40" width="70" x="440" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="uUe3Js_l6WSbCJwzCYxY-1" edge="1" parent="1" source="f2s4Gb-pWufgBm75DpBl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" target="f2s4Gb-pWufgBm75DpBl-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uUe3Js_l6WSbCJwzCYxY-2" connectable="0" parent="uUe3Js_l6WSbCJwzCYxY-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="update cache" vertex="1">
+          <mxGeometry relative="1" x="0.2605" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
